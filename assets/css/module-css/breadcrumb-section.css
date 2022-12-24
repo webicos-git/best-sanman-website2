@@ -1,0 +1,140 @@
+
+
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/
+.breadcrumb-area {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 247px 0 177px;
+    z-index: 10;
+}
+.breadcrumb-area:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.70;
+    content: "";
+    z-index: -1;
+}
+.breadcrumb-area:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    opacity: 0.702;
+    content: "";
+    z-index: -1;
+}
+.breadcrumb-area .inner-content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+
+.breadcrumb-area .title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.breadcrumb-area .title h2{
+    color: #ffffff;
+    font-size: 68px;
+    line-height: 1.3em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+
+.breadcrumb-menu ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 18px;
+}
+.breadcrumb-menu ul li {
+    position: relative;
+    display: inline-block;
+    float: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-right: 21px;
+    padding-right: 27px;
+    text-transform: capitalize;
+}
+.breadcrumb-menu ul li:before {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    content: "";
+}
+.breadcrumb-menu ul li:last-child:before{
+    display: none;
+}
+.breadcrumb-menu ul li:last-child{
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb-menu ul li a {
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+
+
+.breadcrumb-area .border-box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 27px;
+    margin: 0 auto;
+}
+.breadcrumb-area .border-box ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    line-height: 0;
+}
+.breadcrumb-area .border-box ul li{
+    position: relative;
+    display: inline-block;
+    float: none;
+    width: 2px;
+    height: 30px;
+    background: #ffffff;
+    margin: 0 2px;
+}
+.breadcrumb-area .border-box ul li.middle{
+    height: 50px;
+}
+
+
+
+
+
+
+

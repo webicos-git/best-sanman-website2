@@ -1,0 +1,134 @@
+
+/*** 
+=============================================
+    Service style1 Area Css
+=============================================
+***/
+.service-style1-area{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 0 80px;
+    z-index: 1;
+}
+.service-style1-area .container-box{
+    position: relative;
+    display: block;
+    padding: 110px 0 110px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.service-style1-title{
+    position: relative;
+    display: block;
+    margin-left: -140px;
+    margin-right: 100px;
+}
+.service-style1-title .sec-title {
+    padding-bottom: 0;
+}
+.service-style1-title .sec-title h2 {
+    color: #ffffff;
+}
+.service-style1-title .sec-title .text{
+    position: relative;
+    display: block;
+    padding-top: 24px;
+}
+.service-style1-title .sec-title .text p{
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.service-style1-right-content{
+    position: relative;
+    display: block;
+    margin-right: -140px;
+}
+.single-service-style1{
+    position: relative;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 31px 40px 31px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.single-service-style1:hover{
+    border: 1px solid rgba(255, 255, 255, 0.99);    
+}
+.single-service-style1 .inner{
+    position: relative;
+    display: block;
+    padding-left: 75px;
+}
+.single-service-style1 .icon-holder{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.single-service-style1 .text-holder{
+    position: relative;
+    display: block;
+}
+.single-service-style1 .text-holder h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    margin: 0 0 12px;
+}
+.single-service-style1 .text-holder h3 a{
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-service-style1 .text-holder .border-box{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #e1e1e1;
+}
+.single-service-style1 .text-holder p{
+    color: #ffffff;
+    margin: 18px 0 0;   
+}
+.service-style1-area .owl-carousel.owl-dot-style1 .owl-dots {
+    margin-top: 25px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

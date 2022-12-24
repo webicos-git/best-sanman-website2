@@ -1,0 +1,599 @@
+
+
+
+
+/*** 
+=============================================
+    Apartments Style1 Area Css 
+=============================================
+***/
+.apartments-style1-area{
+    position: relative;
+    display: block;
+    padding: 110px 0 30px;
+}
+.single-apartments-style1{
+    position: relative;
+    display: block;
+    margin-bottom: 80px;
+}
+.single-apartments-style1 .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-apartments-style1 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-apartments-style1 .img-holder .inner:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    border-radius: 0%;
+    z-index: 1;
+    background: #252525;
+    opacity: 0.85;
+    transform: scale(0.0);
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transition: all 700ms ease;
+}
+.single-apartments-style1:hover .img-holder .inner:before{
+    transform: scaleX(1.0);          
+}
+.single-apartments-style1 .img-holder .inner img{
+    width: 100%;
+    transform: scale(1.0);
+}
+.single-apartments-style1:hover .img-holder .inner img{
+    transform:scale(1.2) rotate(1deg);	    
+}
+.single-apartments-style1 .img-holder .button-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scale(0);
+    transition: all 500ms ease 200ms;
+}
+.single-apartments-style1:hover .img-holder .button-box{
+    opacity: 1;
+    transform: scale(1.0);   
+}
+.single-apartments-style1 .img-holder .button-box a{
+    position: relative;
+    display: block;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    transform: rotate(90deg);
+}
+
+
+.single-apartments-style1 .text-holder {
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    padding: 36px 0px 45px;
+    z-index: 1;
+}
+.single-apartments-style1 .text-holder:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+    transform: scaleX(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.6s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-apartments-style1:hover .text-holder:before{
+    transform: scaleX(1.0);    
+}
+.single-apartments-style1 .text-holder h2{
+    color: #222222;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0 0 3px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s   
+}
+.single-apartments-style1:hover .text-holder h2{
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s   
+}
+.single-apartments-style1 .text-holder p {
+    margin-bottom: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s   
+}
+.single-apartments-style1:hover .text-holder p{
+    color: #ffffff;
+}
+.single-apartments-style1 .text-holder .button {
+    position: relative;
+    display: block;
+    margin-top: 22px;
+}
+.single-apartments-style1 .text-holder .button a{
+    position: relative;
+    display: inline-block;
+    color: #e2655d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-apartments-style1:hover .text-holder .button a{
+    color: #ffffff;
+}
+.single-apartments-style1 .text-holder .button a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #444444;
+    content: "";
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-apartments-style1:hover .text-holder .button a:before{
+    background: #ffffff;    
+}
+
+
+
+/*** 
+=============================================
+    Apartments Style2 Area Css 
+=============================================
+***/
+.apartments-style2-area{
+    position: relative;
+    display: block;
+    background: #f2f2f2;
+    padding: 110px 0 50px;
+}
+
+.single-apartments-style2{
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+}
+.single-apartments-style2 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-apartments-style2 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.single-apartments-style2 .img-holder .inner:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -moz-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgba(0,0,0,0) 0%, rgb(0,0,0) 100%);
+    content: "";
+    height: 250px;
+    z-index: 1;
+}
+.single-apartments-style2 .img-holder img{
+    position: relative;
+    width: 100%;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.single-apartments-style2:hover .img-holder img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.single-apartments-style2 .img-holder .overlay-title {
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}    
+.single-apartments-style2 .img-holder .overlay-title h2{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.single-apartments-style2 .img-holder .overlay-title .button{
+    position: relative;
+    display: block;
+    padding-top: 7px;
+}
+.single-apartments-style2 .img-holder .overlay-title .button a{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.single-apartments-style2 .img-holder .overlay-title .button a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #ffffff;
+    content: "";
+}
+
+
+
+/*** 
+=============================================
+    Apartments Style3 Area Css 
+=============================================
+***/
+.apartments-style3-area{
+    position: relative;
+    display: block;
+    background: #f2f2f2;
+    padding: 110px 0 30px;
+}
+
+.single-apartments-style3{
+    position: relative;
+    display: block;
+    margin-bottom: 80px;
+}
+.single-apartments-style3 .img-holder{
+    position: relative;
+    display: block;
+    padding-bottom: 30px;
+}
+.single-apartments-style3 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-apartments-style3 .img-holder .inner:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    border-radius: 0%;
+    z-index: 1;
+    background: #252525;
+    opacity: 0.70;
+    transform: scale(0.0);
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transition: all 700ms ease;
+}
+.single-apartments-style3:hover .img-holder .inner:before{
+    transform: scaleX(1.0);          
+}
+.single-apartments-style3 .img-holder .inner img{
+    width: 100%;
+    transform: scale(1.0);
+}
+.single-apartments-style3:hover .img-holder .inner img{
+    transform:scale(1.2) rotate(1deg);	    
+}
+
+.single-apartments-style3 .text-holder {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    right: 100px;
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    padding: 36px 0px 45px;
+    z-index: 1;
+}
+.single-apartments-style3 .text-holder:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+    transform: scaleX(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.6s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-apartments-style3:hover .text-holder:before{
+    transform: scaleX(1.0);    
+}
+
+.single-apartments-style3 .text-holder h3{
+    color: #222222;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0 0 3px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s   
+}
+.single-apartments-style3:hover .text-holder h3{
+    color: #ffffff;    
+}
+.single-apartments-style3 .text-holder p {
+    margin-bottom: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.2s   
+}
+.single-apartments-style3:hover .text-holder p{
+    color: #ffffff;      
+}
+.single-apartments-style3 .text-holder .button {
+    position: relative;
+    display: block;
+    margin-top: 22px;
+}
+.single-apartments-style3 .text-holder .button a{
+    position: relative;
+    display: inline-block;
+    color: #e2655d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: scale(1.0);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-apartments-style3:hover .text-holder .button a{
+    transform: scale(0);    
+}
+.single-apartments-style3 .text-holder .button a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #444444;
+    content: "";
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-apartments-style3 .text-holder .button .overlay-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.single-apartments-style3 .text-holder .button .overlay-button a {
+    position: relative;
+    display: inline-block;
+    transform: rotate(180deg);
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    transform: scale(0);
+    transition: all 200ms linear;
+    transition-delay: 0.2s;
+}
+.single-apartments-style3:hover .text-holder .button .overlay-button a{
+    transform: rotate(180deg) scale(1.0);    
+}
+.single-apartments-style3 .text-holder .button .overlay-button a:before {
+    display: none;
+}
+
+
+
+/*** 
+=============================================
+    Apartments Details One Css
+=============================================
+***/
+.apartments-details-one{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.apartments-details-one-content{
+    position: relative;
+    display: block;
+    max-width: 945px;
+    width: 100%;
+    margin: 0 auto;
+}
+.apartments-details-image-box{
+    position: relative;
+    display: block;
+}
+.apartments-details-image-box .single-item{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.apartments-details-image-box .single-item img{
+    width: 100%;
+}
+.apartments-details-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    text-align: center;
+    line-height: 0;
+    margin-top: 0px !important;
+    display: block;
+}
+
+.apartments-details-text-box {
+    position: relative;
+    display: block;
+    padding-top: 45px;
+}
+.apartments-details-text-box h2{
+    color: #222222;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0 0 17px;
+}
+.apartments-details-text-box span{
+    color: #222222;
+    font-weight: 700;
+}
+.apartments-details-text-box .text {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+}
+.apartments-details-text-box .text p{
+    margin: 0 0 28px;
+}
+.apartments-details-text-box .button-box {
+    position: relative;
+    display: block;
+    margin-top: 58px;
+}
+.apartments-details-text-box .button-box a{
+    margin: 0 5px;
+}
+.apartments-details-text-box .button-box a .txt{
+    color: #ffffff;
+}
+.apartments-details-text-box .button-box a.black{
+    background: #444444;
+}
+
+
+
+/*** 
+=============================================
+    Apartments Details Two Css
+=============================================
+***/
+.apartments-details-two{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-bottom: 70px;
+}
+.apartments-details-two-content{
+    position: relative;
+    display: block;
+    max-width: 945px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.apartments-details-text-box-two{
+    position: relative;
+    display: block;
+}
+.apartments-details-text-box-two .sec-title {
+    padding-bottom: 28px;
+}
+.apartments-details-text-box-two .sec-title h2 {
+    margin: 22px 0 7px;
+}
+.apartments-details-text-box-two .sec-title h3{
+    color: #666666;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.apartments-details-text-box-two .inner-content {
+    position: relative;
+    display: block;
+    margin-bottom: 45px;
+}
+.apartments-details-text-box-two .inner-content .text {
+    position: relative;
+    display: block;
+    margin-bottom: 31px;
+}
+.apartments-details-text-box-two .inner-content .text .top-text {
+    position: relative;
+    display: block;
+    margin-bottom: 31px;
+}
+.apartments-details-text-box-two .inner-content .text p{}
+
+.apartments-details-text-box-two .inner-content ul{
+    overflow: hidden;
+}
+.apartments-details-text-box-two .inner-content ul li {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    color: #222222;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.apartments-details-text-box-two .inner-content ul li:before{
+    font-family: 'icomoon' !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    content: "\e99a";
+    font-size: 14px;
+}
+.apartments-details-text-box-two .inner-content .bottom-text {
+    position: relative;
+    display: block;
+    margin-top: 27px;
+}
+.apartments-details-text-box-two .inner-content .bottom-text p{}
+
+.facilities-content-box{
+    position: relative;
+    display: block;
+    padding-top: 30px;
+}
+
+
+

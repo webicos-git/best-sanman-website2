@@ -1,0 +1,838 @@
+
+
+/*** 
+=============================================
+    Amenities Style1 Area Css
+=============================================
+***/
+.amenities-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0 0 110px;
+}
+.amenities-style1-area.pdtop110{
+    padding-top: 110px;
+}
+.amenities-style1-area .row {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+.amenities-style1-area .row [class*=col-] {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.single-amenities-box{
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.single-amenities-box .image-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-amenities-box .image-box:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    border-radius: 0%;
+    z-index: 1;
+    opacity: 0.80;
+    transform: scale(0.0);
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transition: all 700ms ease;
+}
+.single-amenities-box:hover .image-box:before{
+    transform: scaleX(1.0);          
+}
+.single-amenities-box .image-box img{
+    position: relative;
+    width: 100%;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;    
+}
+
+.single-amenities-box .text-box {
+    position: relative;
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 32px;
+}
+.single-amenities-box.style2 .text-box{
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+
+.single-amenities-box .text-box h3 {
+    font-size: 24px;
+    margin-bottom: 13px;
+}
+.single-amenities-box .text-box p{
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+    More Amenities Area Css
+=============================================
+***/
+.more-amenities-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-bottom: 70px;
+}
+.more-amenities-area.pdtop{
+    padding-top: 110px;
+}
+.more-amenities-area .row {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.more-amenities-area .row [class*=col-] {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.single-amenities-box-style2{
+    position: relative;
+    display: block;
+    align-content: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 40px;
+}
+.single-amenities-box-style2:before{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    height: 2px;
+    content: "";
+    transform: scaleX(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 600ms ease 100ms;
+}
+.single-amenities-box-style2:hover:before{
+    transform: scaleX(1.0); 
+    transition: all 1200ms ease 100ms;
+}
+
+.single-amenities-box-style2 .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    z-index: 1;
+}
+.single-amenities-box-style2 .icon,
+.single-amenities-box-style2 .title{
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-amenities-box-style2 .icon:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #444444;
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-amenities-box-style2:hover .icon:before{
+    transform: scaleX(1.0);      
+}
+.single-amenities-box-style2 .icon span{
+    transition: all 200ms linear;
+    transition-delay: 0.1s    
+}
+.single-amenities-box-style2:hover .icon span{
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s
+}
+
+.single-amenities-box-style2 .title{
+    position: relative;
+    padding-left: 20px;
+}
+.single-amenities-box-style2 .title h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+.single-amenities-box-style2 .title h3 a{
+    color: #222222;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-amenities-box-style2 .title p{
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+   Amenities Style2 Area Css
+=============================================
+***/
+.amenities-style2-area{
+    position: relative;
+    display: block;
+    padding: 130px 0 100px;
+    z-index: 1;
+}
+.amenities-style2-area-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+.amenities-style2-area .top-title-box{
+    position: relative;
+    display: block;
+    max-width: 630px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 72px;
+}
+.amenities-style2-area .top-title-box .logo-box{
+    color: #ffffff;
+    font-size: 65px;
+}
+.amenities-style2-area .top-title-box h2{
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 13px 0 16px;
+}
+.amenities-style2-area .top-title-box p{
+    color: #ffffff;
+    margin: 0;
+}
+
+.single-amenities-box-style3 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 40px 0 33px;
+    margin-bottom: 30px;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+.single-amenities-box-style3:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-amenities-box-style3:hover:before{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-amenities-box-style3:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-amenities-box-style3:hover:after{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-amenities-box-style3 span {
+    font-size: 60px;
+    transition: all 600ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style3:hover span{
+    color: #ffffff;
+}
+.single-amenities-box-style3 span:before{}
+.single-amenities-box-style3 h5 {
+    color: #222222;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    transition: all 600ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style3:hover h5{
+    color: #ffffff;
+}
+
+
+
+/*** 
+=============================================
+    Amenities Style3 Area Css
+=============================================
+***/
+.amenities-style3-area{
+    position: relative;
+    display: block;
+    padding: 110px 0 80px;
+}
+.amenities-style3-area .pattern-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0px;
+    width: 45%;
+    background-color: #f9f6f2;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;    
+}
+.amenities-style3-area .top-title {
+    position: relative;
+    display: block;
+    margin-top: -16px;
+    margin-bottom: 47px;
+}
+.amenities-style3-area .top-title h2{
+    color: #222222;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.amenities-style3-content{
+    position: relative;
+    display: block;
+    margin-right: -250px;
+}
+.amenities-style3-items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.single-amenities-box-style4{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 230px;
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+.single-amenities-box-style4:last-child{
+    margin-right: 0;
+}
+.single-amenities-box-style4:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 1px;
+    background: #444444;
+    content: "";
+    z-index: -1;
+    transition: all 700ms ease 100ms;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(1.0);
+}
+.single-amenities-box-style4:hover:before{
+    height: 100%;    
+}
+
+.single-amenities-box-style4 .inner{
+    position: relative;
+    display: block;
+}
+.single-amenities-box-style4 .inner .icon {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 145px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    z-index: 1;
+}
+.single-amenities-box-style4 .inner .icon:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    opacity: 0.10;
+    z-index: -1;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style4:hover .inner .icon:before{
+    opacity: 1;
+}
+.single-amenities-box-style4 .inner .icon span:before {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 65px;
+    padding-bottom: 20px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style4:hover .inner .icon span:before{
+    color: #ffffff;
+} 
+.single-amenities-box-style4 .inner h3{
+    color: #222222;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 700ms ease 200ms;
+}
+.single-amenities-box-style4:hover .inner h3{
+    color: #ffffff;
+}
+
+
+
+/*** 
+=============================================
+    Amenities Style14 Area Css
+=============================================
+***/
+.amenities-style4-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+.amenities-style4-content{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: -200px;
+    margin-right: 17px;
+}
+.amenities-style4-content .inner-box{
+    position: relative;
+    display: block;
+    padding: 130px 0 105px;
+    padding-right: 110px;
+    z-index: 1;
+}
+.amenities-style4-content .inner-box .pattern-bg{
+    position: absolute;
+    top: 0;
+    left: -50000px;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+.amenities-style4-content .row {
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+}
+.amenities-style4-content .row [class*=col-] {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+.single-amenities-box-style5{
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 45px 0 43px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(61, 61, 61);
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 25px;
+    z-index: 1;
+}
+.single-amenities-box-style5 .static-content{
+    position: relative;
+    display: block;
+    transition: all 600ms linear;
+    transition-delay: 0.2s;
+}
+.single-amenities-box-style5:hover .static-content{
+    opacity: 0;    
+}
+.single-amenities-box-style5 .static-content .icon{
+    position: relative;
+    display: block;
+    padding-bottom: 17px;
+}
+.single-amenities-box-style5 .static-content .icon span{
+    color: #fff;
+    font-size: 45px;
+}
+.single-amenities-box-style5 .static-content h3{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+.single-amenities-box-style5:before {
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    height: 50%;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-amenities-box-style5:hover:before{
+    transform: scaleY(1.0);    
+}
+.single-amenities-box-style5:after {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    height: 51%;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: -1;
+}
+.single-amenities-box-style5:hover:after{
+    transform: scaleY(1.0);    
+}
+
+
+
+.single-amenities-box-style5 .overlay-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+}
+.single-amenities-box-style5:hover .overlay-content{
+    opacity: 1.0;
+    transform: scaleY(1.0);
+}
+
+.single-amenities-box-style5 .overlay-content span{
+    color: #fff;
+    font-size: 45px;
+    opacity: 1;
+}
+.single-amenities-box-style5 .overlay-content h3{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400; 
+    margin: 17px 0 5px;
+}
+.single-amenities-box-style5 .overlay-content p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.amenities-style4-image-box {
+    position: relative;
+    display: block;
+    margin-left: -47px;
+}
+.amenities-style4-image-box .inner{}
+.amenities-style4-image-box img{
+    max-width: none;
+    float: left;
+}
+
+
+
+/*** 
+=============================================
+    Amenities Style5 Area Css
+=============================================
+***/
+.amenities-style5-area{
+    position: relative;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 110px 0 110px;
+    z-index: 1;
+}
+.amenities-style5-area:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37,37,37, 0.45);
+    z-index: -1;    
+}
+.amenities-style5-area.mar0-80{
+    margin: 0 80px;
+}
+
+.amenities-style5-area .container {
+    max-width: 1320px;
+}
+
+.amenities-style5-area .sec-title{
+    padding-bottom: 61px;
+}
+.amenities-style5-area .sec-title .title-icon span:before {
+    color: #ffffff;
+}
+.amenities-style5-area .sec-title h2 {
+    color: #ffffff;
+}
+
+
+.single-amenities-box-style6 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.single-amenities-box-style6 .static-content{
+    position: relative;
+    display: block;
+    background-color: rgb(249, 246, 242);
+    padding: 65px 0 63px;
+    transition: all 600ms linear;
+    transition-delay: 0.2s;
+}
+.single-amenities-box-style6:hover .static-content{}
+
+.single-amenities-box-style6 .static-content .icon {
+    position: relative;
+    display: block;
+    width: 130px;
+    height: 130px;
+    background: #f5f0e9;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.single-amenities-box-style6 .static-content .icon span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style6 .static-content h3{
+    color: #222222;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-amenities-box-style6 .overlay-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 40px 30px 0;
+    opacity: 0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scale(1.2) translateY(50px);
+    transition: all .4s ease-in-out .1s;  
+}
+.single-amenities-box-style6:hover .overlay-content{}
+.single-amenities-box-style6 .overlay-content .icon {
+    position: relative;
+    display: block;
+    width: 130px;
+    height: 130px;
+    background: rgba(255, 255, 255, 0.60);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.single-amenities-box-style6 .overlay-content .icon span{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 60px;
+    background: #252525;
+    border-radius: 50%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;    
+}
+.single-amenities-box-style6 .overlay-content h3{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 7px;
+}
+.single-amenities-box-style6 .overlay-content p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.amenities-style5-carousel{
+    position: relative;
+	display: block;
+	max-width: 250px;
+	width: 100%;
+	margin: 0 auto;
+}
+.amenities-style5-carousel.owl-carousel .owl-stage-outer{
+	overflow: visible;
+	padding: 0px 0px 40px;
+}
+.amenities-style5-carousel.owl-carousel .owl-item.active .single-amenities-box-style6 .overlay-content{
+    opacity: 1.0;
+    transform: scale(1.0) translateY(0);
+    transition: all .4s ease-in-out .2s;      
+}
+.amenities-style5-carousel.owl-carousel .owl-item.active .single-amenities-box-style6 .static-content{
+    opacity: 0;      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

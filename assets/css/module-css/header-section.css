@@ -1,0 +1,1135 @@
+
+
+
+/*==============================================
+    Main Header Css        
+===============================================*/
+.main-header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+    margin: 0px;
+	z-index: 999999;
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+}
+.sticky-header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 0px 0px;
+    background: rgba(23, 23, 23, 0.95);
+	opacity: 0;
+    visibility: hidden;
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	z-index: 0;
+}
+.fixed-header .sticky-header {
+	visibility: visible;
+	-ms-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-op-animation-name: fadeInDown;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-ms-animation-duration: 500ms;
+	-moz-animation-duration: 500ms;
+	-op-animation-duration: 500ms;
+	-webkit-animation-duration: 500ms;
+	animation-duration: 500ms;
+	-ms-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-op-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-ms-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-op-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+	opacity: 1;
+	z-index: 999999;
+}
+.sticky-header .logo {
+    position: relative;
+    display: block;
+    padding: 18px 0 18px;
+}
+.sticky-header .logo a{
+    position: relative;
+    display: inline-block;
+}
+.sticky-header .main-menu .navigation> li {}
+.sticky-header .main-menu .navigation> li> a {
+    color: #ffffff;
+    padding: 35px 0;
+}
+
+
+
+.header-style-one {
+    position: relative;
+}
+
+.header {
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+.header .container-box{
+    position: relative;
+    display: block;
+    padding: 0 80px;
+}
+.header .outer-box {
+    position: relative;
+    display: block;
+    padding: 32px 0 33px;
+}
+
+
+.header-left {
+    position: relative;
+    display: block;
+}
+.header-left .logo {
+    position: relative;
+    display: block;
+    float: left;
+    padding-bottom: 1px;
+}
+.header-left .logo a{
+    position: relative;
+    display: inline-block;
+}
+
+
+.header-middle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-middle .outer-search-box-style1 {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 45px 0;
+    margin-left: 25px;
+}
+
+.header-middle .nav-outer {
+    position: relative;
+    display: block;
+    float: left;
+}
+.main-menu.style1{}
+.main-menu {
+    position: relative;
+    display: block;
+    float: left;
+}
+.main-menu .navbar-collapse{
+	padding:0px;
+	display:block !important;
+}
+.main-menu .navigation {
+	position: inherit;
+	display: block;
+}
+.main-menu .navigation> li {
+    position: inherit;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+.main-menu .navigation> li:last-child{
+    margin-right: 0;
+}
+.main-menu .navigation>li>a {
+	position: relative;
+	display: block;
+    padding: 50px 0;
+	color: #222222;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	text-transform: capitalize;
+	transition: all 500ms ease;
+	opacity: 1;
+    font-family: 'Noto Serif', serif;
+}
+.main-menu .navigation>li.dropdown>a {
+    padding-right: 15px;
+}
+.main-menu .navigation>li.dropdown>a:before {
+    position: absolute;
+    right: 0px;
+    font-family: FontAwesome;
+    content: "\f107";
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.main-menu .navigation> li> ul,
+.main-menu .navigation> li> .megamenu {
+	position: absolute;
+	top: 100%;
+    left: inherit;
+	width: 270px;
+	padding: 0px 0;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0;
+	-moz-transform: translateY(30px);
+	-webkit-transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	-o-transform: translateY(30px);
+    transform: translateY(30px);
+    transition:all 100ms ease;
+	z-index: 100;
+}
+.main-menu .navigation> li> ul:before,
+.main-menu .navigation> li> .megamenu:before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #ffffff;
+    border-radius: 0;
+	-webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	-ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	-o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+    z-index: -1;
+}
+.main-menu .navigation> li.dropdown:hover> ul,
+.main-menu .navigation> li.dropdown:hover .megamenu{
+	opacity:1;
+	visibility:visible;
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+    transform: translateY(0);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+
+.main-menu .navigation> li> ul> li,
+.main-menu .navigation> li> .megamenu li{
+	position: relative;
+    display: block;
+    padding: 0 20px;
+	width: 100%;
+}
+.main-menu .navigation> li> ul> li> a,
+.main-menu .navigation> li> .megamenu li> a {
+	position: relative;
+	display: block;
+    border-bottom: 1px solid #e9e9e9;
+	padding: 13px 0px 13px;
+	color: #222222;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: left;
+	text-transform: capitalize;
+	transition: all 500ms ease;
+    font-family: 'Noto Serif', serif;
+}
+.main-menu .navigation> li> ul> li:last-child> a,
+.main-menu .navigation> li> .megamenu li:last-child a{
+    border: none;
+} 
+.main-menu .navigation> li> ul> li> a:hover,
+.main-menu .navigation> li> .megamenu li> a:hover {
+    padding-left: 15px;
+}
+
+.main-menu .navigation> li> ul> li> a:before,
+.main-menu .navigation> li> .megamenu li> a:before {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    content: "";
+    margin: 15px 0;
+    width: 0px;
+    opacity: 0;
+    transition: all 500ms ease;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.main-menu .navigation> li> ul> li:hover> a:before,
+.main-menu .navigation> li> .megamenu li:hover a:before {
+    width: 5px; 
+    opacity: 1;
+}
+.main-menu .navigation> li> ul> li:hover> a:before{
+	opacity: 1;
+}
+.main-menu .navigation> li> ul> li.dropdown> a:after {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0;
+    font-family: FontAwesome;
+    content: "\f105";
+    font-size: 14px;
+    font-weight: 700;
+    margin: 12px 0;
+    text-align: right;
+    z-index: 5;
+}
+.main-menu .navigation> li> ul> li> ul {
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	width: 250px;
+	padding: 0;
+	display: none;
+	background: #ffffff;
+    border-radius: 0;
+	-webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	-ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	-o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+    -moz-transform: translateY(30px);
+	-webkit-transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	-o-transform: translateY(30px);
+    transform: translateY(30px);
+    transition:all 100ms ease;
+	z-index: 100;
+}
+.main-menu .navigation li> ul> li.dropdown:hover ul {
+	opacity:1;
+	visibility:visible;
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;	
+}
+.main-menu .navigation>li>ul>li>ul> li {
+	position: relative;
+    display: block;
+    padding: 0 20px;
+	width: 100%;
+}
+.main-menu .navigation> li> ul> li> ul> li> a {
+	position: relative;
+	display: block;
+    border-bottom: 1px solid #e9e9e9;
+	padding: 13px 0px 13px;
+	color: #222222;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: left;
+	text-transform: capitalize;
+	transition: all 500ms ease;
+    font-family: 'Noto Serif', serif;
+}
+.main-menu .navigation> li> ul> li> ul> li:last-child> a{
+    border: none;
+}
+.main-menu .navigation> li> ul> li:hover > a{
+    padding-left: 15px;
+}
+.main-menu .navigation> li> ul> li> ul> li> a:hover {
+    padding-left: 15px;
+}
+.main-menu .navigation> li> ul> li> ul> li a:before{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    content: "";
+    margin: 15px 0;
+    width: 0px;
+    transition: all 500ms ease;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.main-menu .navigation> li> ul> li> ul> li:hover> a:before{
+    width: 5px;
+}
+
+
+/** megamenu-style **/
+.main-menu .navigation > li.dropdown > .megamenu {
+    position: absolute;
+    width: 100%;
+    padding: 0px 0px;
+    left: 0px;
+}
+.main-menu .navigation li.dropdown .megamenu li h4{
+  font-weight: 500;
+  padding: 3px 0px;
+  color: #fff;
+}
+.main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 50px;
+    height: 42px;
+    border-left: 1px solid #04102a;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+    z-index: 5;
+}
+
+
+
+.header-right {
+    position: relative;
+    display: block;
+}
+.header-button-style1 {
+    position: relative;
+    display: block;
+}
+.header-button-style1 ul {
+    position: relative;
+    overflow: hidden;
+}
+.header-button-style1 ul li {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.header-button-style1 ul li a {
+    position: relative;
+    display: block;
+    width: 240px;
+    color: #222222;
+    font-size: 18px;
+    line-height: 65px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+.header-button-style1 ul li.style1 a{
+    background: #f6f3ee;
+}
+.header-button-style1 ul li.style2 a{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.header-button-style1 ul li a:hover{
+    color: #ffffff;
+}
+.header-button-style1 ul li.style2 a span:before{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    padding-right: 10px;
+}
+.header-button-style1 ul li a:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #444444;
+    content: "";
+    z-index: -1;
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.header-button-style1 ul li a:hover:before{
+    transform: scaleX(1.0);        
+}
+
+
+
+
+.outer-search-box-style1 {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.outer-search-box-style1 .seach-toggle {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #242424;
+    font-size: 16px;
+    line-height: 38px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    transition: all 500ms ease;
+    border: 1px dashed transparent;
+    border-radius: 50%;
+}
+.outer-search-box-style1 .search-box {
+    position: absolute;
+    top: 120%;
+    right: 0%;
+    background: rgba(0, 0, 0, 0.90);
+    opacity: 0;
+    padding: 20px;
+    transition: all 500ms ease 0s;
+    visibility: hidden;
+    z-index: 100;
+    margin-left: 0;
+}
+.outer-search-box-style1 .search-box.now-visible {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+    z-index: 100;
+}
+.outer-search-box-style1 .search-box .form-group{
+    position:relative;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    min-width: 250px;
+}
+.outer-search-box-style1 .search-box .form-group input[type="search"] {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #1f1f23;
+    color: #000;
+    display: block;
+    font-size: 13px;
+    line-height: 24px;
+    position: relative;
+    transition: all 500ms ease 0s;
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 50px;
+}
+.outer-search-box-style1 .search-box .form-group input[type="search"]:focus{
+    border-color: #f5f5f5;	
+}
+.outer-search-box-style1 .search-box .form-group button, 
+.outer-search-box-style1 .search-box .form-group input[type="submit"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.95);
+    color: #fff;
+    font-size: 13px;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+    transition: all 500ms ease 0s;
+}
+.outer-search-box-style1 .search-box .form-group button:hover,
+.outer-search-box-style1 .search-box .form-group input:focus + button{
+    color: #222222;
+    background: #f5f5f5;
+}
+
+
+
+/*** 
+=====================================================
+	Main Header style Two Css
+=====================================================
+***/
+.main-header-style-two {}
+
+.header-top-style2{
+    position: relative;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+.header-top-style2 .outer-box{
+    position: relative;
+    display: block;
+}
+.header-top-style2 ul {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-top-style2 ul li {
+    position: relative;
+    display: block;
+    width: 20%;
+    border-right: 1px solid rgba(255, 255, 255, .15);
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 0;
+}
+.header-top-style2 ul li:first-child{
+    text-align: left;
+}
+.header-top-style2 ul li:last-child{
+    border-right: none;
+    text-align: right;
+}
+.header-top-style2 ul li p{
+    margin: 0;    
+}
+.header-top-style2 ul li a{
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+
+.header-top-style2 ul li .social-links{
+    position: relative;
+    display: block;
+}
+.header-top-style2 ul li .social-links a{
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;    
+}
+.header-top-style2 ul li .social-links a+a{
+    margin-left: 18px;
+}
+
+
+
+.header-style2{
+    position: relative;
+    display: block;
+}
+.header-style2 .outer-box{
+    position: relative;
+    display: block;
+}
+.header-left-style2{
+    position: relative;
+    display: block; 
+}
+.header-left-style2 .logo {
+    position: relative;
+    display: block;
+    padding: 33px 0;
+}
+.header-left-style2 .logo a{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.header-right-style2 .nav-outer {
+    position: relative;
+    display: block;
+    float: left;
+}
+.main-menu.style2 .navigation>li>a {
+    color: #ffffff;
+}
+
+
+
+
+.header-right-style2 .outer-search-box-style1 {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 50px 0;
+    margin-left: 25px;
+}
+.header-right-style2 .outer-search-box-style1 .seach-toggle {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+    text-align: right;
+}
+
+
+
+/*** 
+=====================================================
+	Main Header style Three Css
+=====================================================
+***/
+.main-header-style-three {}
+.header-style3{
+    position: relative;
+    display: block;
+}
+
+
+.header-style3 .container-box{
+    position: relative;
+    display: block;
+    max-width: 1530px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-style3 .outer-box{
+    position: relative;
+    display: block;
+}
+
+.header-left-style3{
+    position: relative;
+    display: block;
+}
+.main-menu.style3 .navigation> li {
+    margin-right: 30px;
+}
+.main-menu.style3 .navigation> li:last-child{
+    margin-right: 0;
+}
+.main-menu.style3 .navigation>li>a {
+    color: #ffffff;
+    padding-top: 66px;
+    padding-bottom: 32px;
+}
+.main-menu.style3 .navigation>li.dropdown>a {
+    padding-right: 15px;
+}
+
+
+.header-middle-style3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 210px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-middle-style3 .logo {
+    position: relative;
+    display: block;
+    padding-top: 50px;
+}
+.header-middle-style3 .logo a{
+    position: relative;
+    right: -30px;
+    display: inline-block;
+}
+
+
+.header-right-style3 {
+    position: relative;
+    display: block;
+    padding-top: 57px;
+}
+.header-button-style3 {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button-style3 .phn-number{
+    position: relative;
+    display: block;
+}
+.header-button-style3 .phn-number a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.header-button-style3 .phn-number a span:before{
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    float: left;
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+.header-button-style3 .button-box{
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header-button-style3 .button-box a{
+    line-height: 48px;
+    font-weight: 400;
+    border: 1px solid #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: transparent;
+}
+
+.hidden-content-button {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 13px 0;
+}
+.hidden-content-button a {
+    position: relative;
+    display: flex;
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hidden-content-button a span{
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 3px 0;
+    background: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.hidden-content-button a:hover span{
+    background: #444444;    
+}
+
+
+
+/*** 
+=====================================================
+	Main Header style Four Css
+=====================================================
+***/
+.main-header-style-four {}
+.header-style4{
+    position: relative;
+    display: block;
+}
+
+
+.header-style4 .container-box{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 100px;
+}
+.header-style4 .outer-box{
+    position: relative;
+    display: block;
+}
+
+.header-left-style4{
+    position: relative;
+    display: block;
+}
+
+.header-left-style4 .logo {
+    position: relative;
+    display: block;
+    float: left;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+.header-left-style4 .logo a{
+    position: relative;
+    display: inline-block;
+}
+
+.header-left-style4 .nav-outer {
+    position: relative;
+    display: block;
+    float: left;
+}
+.main-menu.style4 .navigation> li {
+    margin-right: 40px;
+}
+.main-menu.style4 .navigation> li:last-child{
+    margin-right: 0;
+}
+.main-menu.style4 .navigation>li>a {
+    color: #ffffff;
+    padding-top: 66px;
+    padding-bottom: 34px;
+}
+.main-menu.style4 .navigation>li.dropdown>a {
+    padding-right: 15px;
+}
+
+
+
+.header-right-style4 {
+    position: relative;
+    display: block;
+    padding-top: 54px;
+}
+.header-button-style4 {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button-style4 .phn-number{
+    position: relative;
+    display: block;
+}
+.header-button-style4 .phn-number a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.header-button-style4 .phn-number a span:before{
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    float: left;
+    padding-right: 10px;
+    font-size: 24px;
+}
+.header-button-style4 .button-box{
+    position: relative;
+    display: block;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.header-button-style4 .button-box a{
+    line-height: 54px;
+    font-weight: 400;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.hidden-content-button-style2{
+    position: relative;
+    display: block;
+    float: right;
+    padding: 13px 0;
+}
+.hidden-content-button-style2 a {
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.hidden-content-button-style2 a span{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 4px 0;
+    background: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.hidden-content-button-style2 a span.middle{
+    width: 50px;
+}
+
+
+.sticky-header.style4 {
+    background: #111111;
+}
+.sticky-header.style4 .logo {
+    padding: 18px 0 18px;
+}
+.sticky-header.style4 .main-menu.style4 .navigation>li>a {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+
+/*** 
+=====================================================
+	Main Header style Five Css
+=====================================================
+***/
+.main-header-style-five {}
+.header-style5{
+    position: relative;
+    display: block;
+}
+.header-style5 .container-box{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 150px;
+}
+.header-style5 .outer-box{
+    position: relative;
+    display: block;
+}
+.header-left-style5{
+    position: relative;
+    display: block;
+}
+.header-left-style5 .logo {
+    position: relative;
+    display: block;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 36px;
+}
+.header-left-style5 .logo a{
+    position: relative;
+    display: inline-block;
+}
+
+
+.header-right-style5 {
+    position: relative;
+    display: block;
+}
+.header-right-style5 .nav-outer {
+    position: relative;
+    display: block;
+    float: left;
+}
+.main-menu.style5 .navigation> li {
+    margin-right: 40px;
+}
+.main-menu.style5 .navigation> li:last-child{
+    margin-right: 0;
+}
+.main-menu.style5 .navigation>li>a {
+    color: #ffffff;
+    padding-top: 66px;
+    padding-bottom: 54px;
+}
+.main-menu.style5 .navigation>li.dropdown>a {
+    padding-right: 15px;
+}
+
+
+
+.header-button-style5 {
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 57px 0 43px;
+}
+.header-button-style5 .phn-number{
+    position: relative;
+    display: block;
+    padding: 0 50px;
+}
+.header-button-style5 .phn-number a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.header-button-style5 .phn-number a span:before{
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    float: left;
+    padding-right: 10px;
+    font-size: 24px;
+}
+.header-button-style5 .button-box{
+    position: relative;
+    display: block;
+}
+.header-button-style5 .button-box a{
+    line-height: 48px;
+    font-weight: 400;
+    border: 1px solid #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: transparent;
+}
+
+
+.header-button-style5.style5instyle6 .button-box a {
+    line-height: 48px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

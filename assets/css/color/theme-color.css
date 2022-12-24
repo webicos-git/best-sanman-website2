@@ -1,0 +1,329 @@
+
+
+/*** 
+=====================================================
+	Theme Main Color Css
+=====================================================
+***/
+.thm_clr1,
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation> li> ul> li:hover> a,
+.main-menu .navigation> li> ul> li> ul> li> a:hover,
+.main-menu .navigation> li> .megamenu li:hover a,
+
+.main-menu .navigation> li> ul> li.dropdown> a:after,
+.mobile-menu .navigation li.current > a,
+.mobile-menu .navigation li > a:hover,
+.outer-search-box-style1 .seach-toggle:hover,
+.outer-search-box-style1 .seach-toggle.active,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a,
+.header-button-style3 .phn-number a:hover,
+.header-button-style5 .phn-number a:hover,
+.main-menu.style5 .navigation>li:hover>a,
+.main-menu.style5 .navigation>li.current>a,
+.sticky-header .main-menu.style5 .navigation>li.current>a,
+.banner-social-link ul li a:hover,
+.btn-two:hover,
+.btn-two:focus,
+.sec-title .sub-title h4,
+.sec-title.style3 .title-icon span:before,
+.single-facilities-box:hover .title h3 a,
+.single-extra-facilities-box .text-holder ul li:before,
+.story-content-box .inner-content  .sec-title .title-icon span:before,
+.welcome-style2-image-box .inner-title h2.thm_clr1,
+.welcome-style2-content .inner-content ul li:before,
+.single-amenities-box-style2:hover .title h3 a,
+.single-amenities-box-style4 .inner .icon span:before,
+.single-amenities-box-style6 .static-content .icon span,
+.apartment-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn:hover,
+.apartment-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn.active-btn,
+.single-apartments-style2 .img-holder .overlay-title .button a,
+.apartments-details-text-box-two .inner-content ul li:before,
+.single-blog-style1 .text-holder .tag-box p,
+.single-blog-style2 .text-holder .tag-box p,
+.blog-grid-style1-area .single-blog-style3 .text-holder .blog-title a:hover,
+.blog-grid-style1-area .single-blog-style3 .text-holder .button-box a,
+.single-blog-style4 .text-holder .meta-info li a:hover,
+.single-blog-style4 .text-holder .blog-title a:hover,
+.single-blog-style4 .text-holder .button-box a,
+.single-blog-style4.style4instyle5 .text-holder .text p span,
+.blog-posts .blockquote-content:before,
+.single-sidebar .sidebar-archives li a:hover,
+.single-sidebar .sidebar-archives li:before,
+.single-sidebar .sidebar-categories-box li:before,
+.single-sidebar .sidebar-categories-box li a:hover,
+.breadcrumb-menu ul li:hover a,
+.breadcrumb-menu ul li.active,
+.single-contact-info-box .icon span,
+.single-fact-counter-style2.style2instyle4 .icon-box span:before,
+.faq-style1-area .accordion-box .accordion .accord-btn.active h4,
+.faq-style1-area .accordion-box .accordion .accord-btn.active:after,
+.single-features-box-style2 .icon-holder .inner span,
+.floor-plans-tab .tab-button-column .tab-buttons li.tab-btn:hover,
+.floor-plans-tab .tab-button-column .tab-buttons li.tab-btn.active-btn,
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn:hover,
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn.active-btn,
+.footer-social-link ul li a:hover,
+.single-service-style1 .text-holder h3 a,
+.single-testimonial-style1 .text-holder .text-box .icon-box span,
+.accordion-box.style2 .accordion .accord-btn.active h4{
+    color: #e6bc73;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Background Color Css
+=====================================================
+***/
+.thm_bgclr1,
+.main-menu .navigation> li> ul> li> a:before,
+.main-menu .navigation> li> ul> li> ul> li a:before,
+.main-menu .navigation> li> .megamenu li> a:before,
+.nav-outer .mobile-nav-toggler .inner,
+.sidebar-search-box,
+.main-slider .content .btns-box a,
+.header-button-style5.style5instyle6 .button-box a,
+.slogan-content.style2.style2instyle3:before,
+.btn-two,
+.thm-social-link1 ul li a:before,
+.owl-carousel.owl-dot-style1 .owl-dots .owl-dot.active span,
+.slogan-content-style3:before,
+.single-facilities-box:before,
+.space-availabe-table tbody tr td .button a:hover,
+.space-availabe-button-box a:hover,
+.single-extra-facilities-box .text-holder .title .border-box,
+.error-content .btns-box a,
+.single-amenities-box .image-box:before,
+.single-amenities-box-style2:before,
+.single-amenities-box-style4 .inner .icon:before,
+.single-amenities-box-style6 .overlay-content,
+.single-apartments-style1 .text-holder:before,
+.single-apartments-style3 .text-holder:before,
+.single-blog-style2 .img-holder .inner:after,
+.blog-grid-style1-area .single-blog-style3 .img-holder .inner:after,
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover,
+.single-blog-style4 .img-holder .inner:after,
+.single-blog-style4 .img-holder .date-box,
+.add-comment-box #add-comment-form .button-box button,
+.single-sidebar .title .border-box,
+.breadcrumb-menu ul li:before,
+.contact-form form .button-box button,
+.single-fact-counter:after,
+.floor-plans-left-content ul,
+.floor-plans-tab-content-style2 .button-box a.first,
+.single-footer-widget .title:before,
+.single-gallery-item .img-holder:before,
+.single-gallery-item .img-holder:after,
+.video-holder-box .icon:after {
+    background: #e6bc73;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Border Color Css
+=====================================================
+***/
+.mobile-menu .navigation li > a:before {
+    border-left: 5px solid #e6bc73;
+}
+.header-button-style5.style5instyle6 .button-box a {
+    border: 1px solid #e6bc73;
+}
+.single-gallery-item.style2 .img-holder .border-box{
+    border: 1px solid #e6bc73;
+}
+
+.space-availabe-table tbody tr td .button a:hover,
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover,
+.floor-plans-tab-content-style2 .button-box a.first {
+    border-color: #e6bc73;
+}
+
+
+
+
+
+
+/****
+    Theme color, bgclr etc Two---------------------------------------------------------------------------------
+***/
+
+.header-top-style2 ul li a:hover,
+.header-top-style2 ul li .social-links a:hover,
+.main-menu.style2 .navigation>li:hover>a,
+.main-menu.style2 .navigation>li.current>a,
+.sticky-header .main-menu.style2 .navigation>li.current>a,
+.main-menu.style2 .navigation> li> ul> li:hover> a,
+.main-menu.style2 .navigation> li> ul> li> ul> li:hover> a,
+.main-menu.style2 .navigation> li> ul> li.dropdown> a:after,
+.main-menu.style2 .navigation> li> .megamenu li:hover a,
+.sec-title.style2 .title-icon span:before,
+.welcome-style2-image-box .inner-title h2,
+.single-amenities-box-style3 span,
+.choose-style1-content .inner-content ul li .icon span,
+.accordion-box .accordion .accord-btn.active h4,
+.footer-social-link.style2 ul li a:hover {
+    color: #006cff;
+}
+
+
+
+.thm_bgclr2,
+.main-menu.style2 .navigation>li>ul>li>a:before,
+.main-menu.style2 .navigation> li> ul> li> ul> li a:before,
+.main-menu.style2 .navigation> li> .megamenu li> a:before,
+.main-slider .mouse-btn-down:before,
+.single-features-box-style1 .overlay-text:before,
+.slogan-content:before,
+.btn-one,
+.apartment-plans-tab-content .button-box a,
+.apartment-plans-tab-content .button-box a.style2:hover,
+.single-amenities-box-style3:before,
+.single-amenities-box-style3:after,
+.choose-style1-image-box ul li .img-box .overlay-content:before,
+.single-footer-widget.style2 .title:before {
+    background: #006cff;
+}
+
+
+
+.main-slider .mouse-btn-down:after {
+	border: 2px solid #006cff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****
+    Theme color, bgclr etc Three---------------------------------------------------------------------------------
+***/
+
+.thm_clr3,
+.main-menu.style4 .navigation>li:hover>a,
+.main-menu.style4 .navigation>li.current>a,
+.sticky-header .main-menu.style4 .navigation>li.current>a,
+.main-menu.style4 .navigation> li> ul> li:hover> a,
+.main-menu.style4 .navigation> li> ul> li> ul> li:hover> a,
+.main-menu.style4 .navigation> li> ul> li.dropdown> a:after,
+.main-menu.style4 .navigation> li> .megamenu li:hover a,
+.header-button-style4 .phn-number a:hover,
+.single-building-features-box:hover .title h3 a,
+.sec-title.style4 .title-icon span:before,
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li.tab-btn:hover,
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li.tab-btn.active-btn,
+.project-filter li:hover .filter-text, 
+.project-filter li.active .filter-text,
+.single-blog-style3 .text-holder .blog-title a:hover,
+.single-blog-style3 .text-holder .button-box a {
+    color: #e2655d;
+}
+
+
+
+
+
+
+
+
+
+
+
+.thm_bgclr3,
+.main-menu.style4 .navigation>li>ul>li>a:before,
+.main-menu.style4 .navigation> li> ul> li> ul> li a:before,
+.main-menu.style4 .navigation> li> .megamenu li> a:before,
+.header-button-style4 .button-box a,
+.hidden-content-button-style2 a:hover span,
+.single-building-features-box .icon:before,
+.single-apartment-types-box .img-holder .overlay-content:before,
+.slogan-content.style2:before,
+.single-building-features-box:before,
+.floorplan-style3-tab-bottom-content .text-box .button-box a,
+.single-amenities-box-style5:before,
+.single-amenities-box-style5:after,
+.gallery-style3-area .single-gallery-item .img-holder:before,
+.gallery-style3-area .single-gallery-item .img-holder:after,
+.video-gallery-area.style3 .video-holder-box .icon:after,
+.single-blog-style3 .img-holder .inner:after,
+.footer.style4 .single-footer-widget .title:before {
+    background: #e2655d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-button-style4 .button-box a{
+    border: 1px solid #e2655d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

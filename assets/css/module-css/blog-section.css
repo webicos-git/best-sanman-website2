@@ -1,0 +1,1649 @@
+
+
+
+/*** 
+=============================================
+    Blog Style1 Area Css
+=============================================
+***/
+.blog-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 70px;
+    z-index: 1;
+}
+
+.blog-style1-title-box{
+    position: relative;
+    display: block;
+    margin-left: -140px;
+    width: 100%;
+    height: 100%;
+}
+.blog-style1-title-box .sec-title{
+    padding: 0;
+}
+.blog-style1-title-box .apartment-box {
+    position: absolute;
+    left: -200px;
+    bottom: -70px;
+}
+.blog-style1-title-box .apartment-box img{
+    max-width: none;
+    float: right;
+}
+
+
+.blog-style1-content-box{
+    position: relative;
+    display: block;
+    padding-top: 50px;
+    margin-right: -140px;
+}
+.single-blog-style1{
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-blog-style1 .text-holder {
+    position: relative;
+    display: block;
+    padding-top: 14px;
+    padding-left: 70px;
+    padding-bottom: 13px;
+}
+.single-blog-style1 .text-holder:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e1e1e1;
+    content: "";
+}
+.single-blog-style1 .text-holder .tag-box{
+    position: relative;
+    display: block;
+}
+.single-blog-style1 .text-holder .tag-box p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.single-blog-style1 .text-holder .blog-title {
+    color: #222222;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.single-blog-style1 .text-holder .blog-title a{
+    color: #222222;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style1 .text-holder .text {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 26px;
+}
+.single-blog-style1 .text-holder .text p {
+    margin: 0;
+}
+
+.single-blog-style1 .text-holder .meta-info {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-blog-style1 .text-holder .meta-info li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.single-blog-style1 .text-holder .meta-info li:last-child{
+    margin-right: 0px;
+}
+.single-blog-style1 .text-holder .meta-info li a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 5px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+
+
+/*** 
+=============================================
+    Blog Style2 Area Css
+=============================================
+***/
+.blog-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 80px 0 40px;
+}
+.blog-style2-area .pattern-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    width: 45%;
+    background-color: #f9f6f2;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center; 
+    z-index: 1;
+}
+.blog-style2-area .row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.blog-style2-area .row [class*=col-] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog-style2-top-title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.blog-style2-top-title .sec-title{
+    padding-bottom: 51px;
+}
+.blog-style2-top-title .button-box{
+    padding-bottom: 60px;
+}
+.blog-style2-top-title .button-box a {
+    color: #222222;
+    font-size: 16px;
+    background: #ffffff;
+    border: 1px solid #222222;
+    line-height: 58px;
+    padding: 0 35px;
+}
+.blog-style2-top-title .button-box a:hover{
+    color: #ffffff;
+}
+
+.single-blog-style2{
+    position: relative;
+    display: block;
+    padding-left: 250px;
+    min-height: 405px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+.single-blog-style2 .img-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 405px;
+}
+.single-blog-style2 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-blog-style2 .img-holder .inner:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    height: 200px;
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+}
+.single-blog-style2 .img-holder .inner:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: 1;
+}
+.single-blog-style2:hover .img-holder .inner:after{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-blog-style2 .img-holder img{
+    width: 100%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style2:hover .img-holder img {
+    transform: scale(1.2);
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-blog-style2 .img-holder .meta-info {
+    position: absolute;
+    left: 20px;
+    bottom: 61px;
+    right: 20px;
+    text-align: center;
+    z-index: 2;
+}
+.single-blog-style2 .img-holder .meta-info li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.single-blog-style2 .img-holder .meta-info li a{
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+
+.single-blog-style2 .text-holder {
+    position: relative;
+    display: block;
+    padding: 43px 40px 50px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+}
+.single-blog-style2 .text-holder .tag-box {
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+}
+.single-blog-style2 .text-holder .tag-box p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.single-blog-style2 .text-holder .blog-title {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.single-blog-style2 .text-holder .blog-title a{
+    color: #222222;
+}
+.single-blog-style2 .text-holder .text {
+    position: relative;
+    display: block;
+    margin-bottom: 24px;
+}
+.single-blog-style2 .text-holder .text p {
+    margin: 0;
+}
+.single-blog-style2 .text-holder .button-box{
+    position: relative;
+    display: block;
+}
+.single-blog-style2 .text-holder .button-box a {
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+/*** 
+=============================================
+    Blog Style3 Area Css
+=============================================
+***/
+.blog-style3-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 70px;
+}
+.blog-style3-title {
+    position: relative;
+    display: block;
+    max-width: 340px;
+    width: 100%;
+}
+.blog-style3-title .sec-title{
+    padding: 0;
+    margin-top: -10px;
+}
+.blog-style3-title .sec-title p{
+    margin: 24px 0 0;
+}
+.blog-style3-title .sec-title .button-box{
+    position: relative;
+    display: block;
+    padding-top: 42px;
+}
+.blog-style3-title .sec-title .button-box a{
+    color: #222222;
+    line-height: 56px;
+    border: 2px solid #222222;
+    background-color: #ffffff;
+}
+.blog-style3-title .sec-title .button-box a:hover{
+    color: #ffffff;
+}
+
+
+.blog-style3-content{
+    position: relative;
+    display: block;
+}
+.single-blog-style3{
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-blog-style3 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-blog-style3 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-blog-style3 .img-holder .inner:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: 1;
+}
+.single-blog-style3:hover .img-holder .inner:after{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-blog-style3 .img-holder img{
+    width: 100%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style3:hover .img-holder img {
+    transform: scale(1.2);
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-blog-style3 .img-holder .meta-info {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #3a3a3a;
+    padding: 3px 20px 3px;
+    z-index: 2;
+}
+.single-blog-style3 .img-holder .meta-info li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.single-blog-style3 .img-holder .meta-info li a{
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+
+.single-blog-style3 .text-holder {
+    position: relative;
+    display: block;
+    padding: 42px 40px 50px;
+    padding-right: 30px;
+    background-color: #f8f8f8;
+}
+.single-blog-style3 .text-holder .blog-title {
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.single-blog-style3 .text-holder .blog-title a{
+    color: #222222;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style3 .text-holder .text {
+    position: relative;
+    display: block;
+    margin-bottom: 23px;
+}
+.single-blog-style3 .text-holder .text p {
+    margin: 0;
+}
+.single-blog-style3 .text-holder .button-box{
+    position: relative;
+    display: block;
+}
+.single-blog-style3 .text-holder .button-box a {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.single-blog-style3 .text-holder .button-box a:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #3a3a3a;
+    content: "";
+}
+
+
+
+/*** 
+=============================================
+    Blog Style4 Area Css
+=============================================
+***/
+.blog-style2-area.style4{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 70px;
+}
+
+
+
+
+
+
+
+/*** 
+=============================================
+    Blog Grid Style1 Area Css
+=============================================
+***/
+.blog-grid-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;    
+}
+
+
+.styled-pagination {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.styled-pagination.pdtop0{
+    padding-top: 0;
+}
+.styled-pagination li{
+	position: relative;
+	display: inline-block;
+    float: none;
+	margin: 0 3px;
+}
+.styled-pagination li a{
+	position: relative;
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+	color: #222222;
+	font-size: 16px;
+	line-height: 48px;
+	font-weight: 700;
+	text-align: center;
+	text-transform:capitalize;
+	transition:all 500ms ease;
+    font-family: 'Noto Serif', serif;
+    z-index: 1;
+}
+.styled-pagination li:hover a,
+.styled-pagination li.active a{
+    color: #ffffff;
+}
+
+.styled-pagination li.prev a,
+.styled-pagination li.next a{
+    position: relative;
+	color: #222222;
+    line-height: 48px;
+}
+.styled-pagination li.prev a i {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    transform: rotate(-90deg);
+}
+.styled-pagination li.next a i {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover{
+    color: #ffffff;
+}
+
+
+
+/*** 
+=============================================
+    Blog Grid Style2 Area Css
+=============================================
+***/
+.blog-grid-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+
+.single-blog-style4{
+    position: relative;
+    display: block;
+    margin-bottom: 80px;
+}
+.single-blog-style4 .img-holder{
+    position: relative;
+    display: block;
+}
+.single-blog-style4 .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-blog-style4 .img-holder .inner:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: 1;
+}
+.single-blog-style4:hover .img-holder .inner:after{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+
+.single-blog-style4 .img-holder .inner img{
+    width: 100%;
+    transition: all 700ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style4:hover .img-holder .inner img {
+    transform: scale(1.2);
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+
+.single-blog-style4 .img-holder .date-box {
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+    width: 75px;
+    padding: 19px 0px 15px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.3s;
+    z-index: 10;
+}
+.single-blog-style4:hover .img-holder .date-box{
+    background: #171717;    
+}
+.single-blog-style4 .img-holder .date-box h2 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.single-blog-style4 .img-holder .date-box h2 span{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.single-blog-style4 .text-holder {
+    position: relative;
+    display: block;
+    margin-top: 38px;
+}
+.single-blog-style4 .text-holder .meta-info {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-blog-style4 .text-holder .meta-info li{
+    position: relative;
+    display: block;
+    float: left;
+    padding-right: 17px;
+    margin-right: 15px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.single-blog-style4 .text-holder .meta-info li:before{
+    position: absolute;
+    top: 7px;
+    right: 0;
+    bottom: 7px;
+    width: 2px;
+    background: #b7b7b7;
+    content: "";
+}
+.single-blog-style4 .text-holder .meta-info li:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+.single-blog-style4 .text-holder .meta-info li:last-child:before{
+    display: none;
+}
+.single-blog-style4 .text-holder .meta-info li a {
+    position: relative;
+    display: inline-block;
+    padding-left: 5px;
+    color: #222222;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-blog-style4 .text-holder .blog-title {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 28px;
+}
+.single-blog-style4 .text-holder .blog-title a{
+    color: #222222;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-blog-style4 .text-holder .text{
+    position: relative;
+    display: block;
+}
+.single-blog-style4 .text-holder .text p{
+
+}
+.single-blog-style4 .text-holder .button-box {
+    position: relative;
+    display: block;
+    margin-top: 31px;
+}
+.single-blog-style4 .text-holder .button-box a{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-blog-style4 .text-holder .button-box a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #444444;
+    content: "";
+}
+
+
+
+/*** 
+=============================================
+    Blog List Style1 Area style
+=============================================
+***/
+.blog-list-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.sidebar-wrapper.pdleft0{
+    padding-left: 0;
+}
+.single-blog-style4.style4instyle5 {
+    margin-bottom: 60px;
+}
+.single-blog-style4.style4instyle5 .text-holder .blog-title {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 21px;
+}
+
+.single-blog-style4.style4instyle5 .text-holder .button-box {
+    margin-top: 23px;
+}
+
+.single-blog-style4.style4instyle5 .video-play-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 100;
+}
+.single-blog-style4.style4instyle5 .video-play-button a{
+    position: relative;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #222222;
+    font-size: 30px;
+    line-height: 90px;
+    text-align: center;
+    box-shadow: 0px 0px 46.15px 18.85px rgba(0, 0, 0, 0.2);
+}
+.blog-list-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    right: 0;
+    text-align: center;
+    line-height: 0;
+    margin-top: 0px !important;
+    display: block;
+}
+.single-blog-style4.style4instyle5 .inner-content{
+    position: relative;
+    display: block;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 21px 50px 60px;
+    z-index: 1;
+}
+.single-blog-style4.style4instyle5 .inner-content .link-icon{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.single-blog-style4.style4instyle5 .inner-content:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #252525;
+    opacity: 0.80;
+    z-index: -1;
+}
+.single-blog-style4.style4instyle5 .outer-box{
+    position: relative;
+    display: block;
+    padding-left: 75px;
+}
+.single-blog-style4.style4instyle5 .outer-box .date-box{
+    position: absolute;
+    top: 11px;
+    left: 0;
+    bottom: 0;
+    width: 75px;
+    height: 80px;
+    padding: 19px 0px 15px;
+    text-align: center;
+}
+.single-blog-style4.style4instyle5 .outer-box .date-box h2{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 400;    
+}
+.single-blog-style4.style4instyle5 .outer-box .date-box h2 span{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;    
+}
+.single-blog-style4.style4instyle5 .outer-box .text-holder{
+    position: relative;
+    display: block;
+    padding-left: 40px;
+}
+
+.single-blog-style4.style4instyle5 .outer-box .text-holder .blog-title{
+    margin-top: 0;
+    margin-bottom: 18px;    
+}
+.single-blog-style4.style4instyle5 .outer-box .text-holder .blog-title a{
+    color: #ffffff;
+}
+.single-blog-style4.style4instyle5 .outer-box .text-holder .meta-info li {
+    color: #ffffff;
+}
+.single-blog-style4.style4instyle5 .outer-box .text-holder .meta-info li:before {
+    background: #ffffff;
+}
+.single-blog-style4.style4instyle5 .outer-box .text-holder .meta-info li a {
+    color: rgba(255, 255, 255, 0.80);
+}
+.single-blog-style4.style4instyle5 .outer-box .text-holder .meta-info li a:hover{
+    color: rgba(255, 255, 255, 0.99);    
+}
+
+
+
+
+/*** 
+=============================================
+    Blog Details Area style
+=============================================
+***/
+.blog-details-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.blog-details-area .blog-posts{
+    position: relative;
+    display: block;
+}
+.blog-details-area .blog-posts .single-blog-style4{
+    margin-bottom: 45px;
+}
+.blog-details-area .blog-posts .single-blog-style4 .text-holder .blog-title {
+    color: #222222;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 21px;
+}
+.blog-details-area .blog-posts .single-blog-style4 .text-holder .bottom-text {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+
+
+.blog-posts .blockquote-content {
+    position: relative;
+    display: block;
+    padding-left: 70px;
+    margin-bottom: 46px;
+}
+.blog-posts .blockquote-content:before {
+    position: absolute;
+    content: "\e99c";
+    font-family: 'icomoon' !important;
+    top: 2px;
+    left: 25px;
+    font-size: 26px;
+    transform: rotate(-180deg);
+}
+.blog-posts .blockquote-content p{
+    color: #222222;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0;
+}
+
+
+.blog-details-text-1 {
+    position: relative;
+    display: block;
+    margin-bottom: 37px;
+}
+
+.blog-details-text-2{
+    position: relative;
+    display: block;
+}
+.blog-details-text-2 .text-holder{
+    position: relative;
+}
+.blog-details-text-2 .text-holder .bottom-text {
+    position: relative;
+    display: block;
+    margin-top: 29px;
+}
+.blog-details-text-2 .text-holder .bottom-text p{}
+.blog-details-text-2 .img-holder{
+    position: relative;
+    display: block;
+}
+.blog-details-text-2 .img-holder img{
+    width: 100%;
+}
+
+.blog-details-text-3 {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.tag-social-share-box{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 42px;
+    margin-bottom: 80px;
+}
+.tag-box{
+    position: relative;
+    display: block;
+}
+.tag-box .tag-list{
+    overflow: hidden;
+}
+.tag-box .tag-list li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+.tag-box .tag-list li:last-child{
+    margin-right: 0;
+}
+.tag-box .tag-list li a{
+    position: relative;
+    display: block;
+    background: #faf8f4;
+    padding: 0 20px;
+    color: #222222;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.tag-box .tag-list li a:hover{
+    color: #ffffff;
+    background: #444444;
+}
+.tag-social-share-box .post-social-share{
+    position: relative;
+    display: block;
+}
+
+
+.blog-details-bottom-content {
+    position: relative;
+    display: block;
+}
+.blog-details-author {
+    position: relative;
+    display: block;
+    background: #faf8f4;
+    padding: 50px 60px 50px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.blog-details-author .inner-box{
+    position: relative;
+    display: block;
+}
+.blog-details-author .inner-box .img-box{
+    width: 130px;
+}
+.blog-details-author .inner-box .img-box img{
+    width: 100%;
+    border-radius: 50%;
+}
+.blog-details-author .inner-box .img-box,
+.blog-details-author .inner-box .text{
+    display: table-cell;
+    vertical-align: middle;
+}
+.blog-details-author .inner-box .text {
+    position: relative;
+    padding-left: 30px;
+}
+.blog-details-author .inner-box .text h3 {
+    color: #222222;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.blog-details-author .inner-box .text p {
+    margin: 0;
+}
+.blog-details-author .inner-box .text .social-links{
+    position: relative;
+    display: block;
+    padding-top: 22px;
+}
+
+
+
+.comment-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 73px;
+}
+.comment-box .title {
+    position: relative;
+    display: block;
+    padding-bottom: 23px;
+}
+.comment-box .title h3{
+    color: #222222;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.comment-box .outer-box{
+    position: relative;
+    display: block;
+}
+.comment-box .single-comment {
+    position: relative;
+    display: block;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.comment-box .single-comment-box {
+    position: relative;
+    display: block;
+    padding-left: 60px;
+    min-height: 60px;
+}
+.comment-box .single-comment-box .img-holder {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+}
+.comment-box .single-comment-box .img-holder img{
+    width: 100%;
+    border-radius: 50%;
+}
+.comment-box .single-comment-box .text-holder {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    min-height: 60px;
+}
+.comment-box .single-comment-box .text-holder .top {
+    position: relative;
+    display: block;
+}
+.comment-box .single-comment-box .text-holder .top span{
+    font-size: 14px;
+}
+.comment-box .single-comment-box .text-holder .top h3{
+    color: #222222;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 2px 0 0;
+}
+.comment-box .single-comment-box .text-holder .text{
+    position: relative;
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 23px;
+}
+.comment-box .single-comment-box .text-holder .text p{
+    margin: 0;
+}
+
+.comment-box .single-comment-box .text-holder .reply {
+    position: relative;
+    display: block;
+    text-align: right;
+}
+.comment-box .single-comment-box .text-holder .reply a{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 500ms ease;
+}
+.comment-box .single-comment-box .text-holder .reply a:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #444444;
+    content: "";
+}
+.comment-box .single-comment-box .text-holder .reply a:hover{
+    color: #222222;
+}
+
+
+.add-comment-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 38px;
+}
+.add-comment-box .title {
+    position: relative;
+    display: block;
+    padding-bottom: 31px;
+}
+.add-comment-box .title h3{
+    color: #222222;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+.add-comment-box .title p{
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0;
+}
+.add-comment-box #add-comment-form {
+    position: relative;
+    display: block;
+}
+.add-comment-box #add-comment-form .input-box{
+    position: relative;
+    display: block;
+}
+.add-comment-box #add-comment-form input[type="text"], 
+.add-comment-box #add-comment-form input[type="email"], 
+.add-comment-box #add-comment-form textarea {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 65px;
+    color: #222222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0 30px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    transition: all 500ms ease;
+    font-family: 'Noto Serif', serif;
+}
+
+.add-comment-box #add-comment-form textarea {
+    height: 150px;
+    padding: 15px 30px;
+}
+.add-comment-box #add-comment-form input[type="text"]:focus{
+    border-color: #171717;    
+}
+.add-comment-box #add-comment-form input[type="email"]:focus{
+    border-color: #171717;    
+}
+.add-comment-box #add-comment-form textarea:focus{
+    border-color: #171717;       
+}
+
+.add-comment-box #add-comment-form .button-box {
+    position: relative;
+    display: block;
+}
+.add-comment-box #add-comment-form .button-box button{
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+}
+
+
+.sidebar-wrapper {
+    position: relative;
+    display: block;
+    max-width: 340px;
+    width: 100%;
+    padding-left: 20px;
+}
+.single-sidebar {
+    position: relative;
+    display: block;
+    padding-bottom: 60px;
+}
+.single-sidebar.pdbtm0{
+    padding-bottom: 0;
+}
+.single-sidebar .title {
+    position: relative;
+    display: block;
+    margin-top: -6px;
+    padding-bottom: 35px;
+}
+.single-sidebar .title h3 {
+    color: #222222;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 14px;
+}
+.single-sidebar .title .border-box{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 1px;
+}
+
+
+.sidebar-search-box {
+    position: relative;
+    display: block;
+}
+.sidebar-search-box form.search-form {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.sidebar-search-box .search-form input[type="text"] {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e1e1e1;
+    color: #aaaaaa;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 19px;
+    padding-right: 60px;
+    transition: all 500ms ease 0s;
+    font-family: 'Noto Serif', serif;
+}
+.sidebar-search-box .search-form button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 60px;
+    color: #aaaaaa;
+    font-size: 16px;
+    line-height: 60px;
+    display: block;
+    text-align: center;
+    border: 0px solid #e1e1e1;
+    transition: all 500ms ease 0s;
+}
+.sidebar-search-box .search-form button i {
+    font-size: 16px
+}
+.sidebar-search-box .search-form input[type="text"]:focus {
+    color: #000;
+}
+.sidebar-search-box .search-form input::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
+.sidebar-search-box .search-form input:-moz-placeholder {
+    color: #aaaaaa;
+}
+.sidebar-search-box .search-form input::-moz-placeholder {
+    color: #aaaaaa;
+}
+.sidebar-search-box .search-form input:-ms-input-placeholder {
+    color: #aaaaaa;
+}
+
+
+.single-sidebar .sidebar-categories-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-sidebar .sidebar-categories-box li {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 17px;
+    margin-top: 14px;
+    padding-left: 20px;
+}
+.single-sidebar .sidebar-categories-box li:first-child{
+    margin-top: 0;
+}
+.single-sidebar .sidebar-categories-box li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 8px;
+    font-family: 'icomoon' !important;
+    content: "\e99b";
+    transition: all 500ms ease;
+}
+.single-sidebar .sidebar-categories-box li:hover:before{
+    color: #222222;
+}
+.single-sidebar .sidebar-categories-box li a {
+    color: #222222;
+    transition: all 500ms ease;
+}
+.single-sidebar .sidebar-categories-box li span {
+    position: relative;
+    display: inline-block;
+    float: right;
+    color: #666666;
+}
+
+
+.single-sidebar .latest-posts{
+    position: relative;
+    display: block;
+}
+.single-sidebar .latest-posts li {
+    position: relative;
+    display: block;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.single-sidebar .latest-posts li:last-child{
+    margin-bottom: 0;
+}
+.single-sidebar .latest-posts li .inner {
+    position: relative;
+    display: block;
+    min-height: 80px;
+    padding-left: 80px;
+}
+.single-sidebar .latest-posts li .img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+.single-sidebar .latest-posts li .img-box img{
+    width: 100%;
+}
+.single-sidebar .latest-posts li .img-box .overlay-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.90);
+    border-radius: 0px;
+    opacity: 0;
+    transform: perspective(400px) scale(0);
+    transform-origin: top;
+    transition: all 0.5s ease-in-out 0s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.single-sidebar .latest-posts li:hover .img-box .overlay-content{
+	opacity: 1;
+    transform: perspective(400px) scale(1.0); 
+    transition: all 0.3s ease-in-out 0.3s;    
+}
+.single-sidebar .latest-posts li .img-box .overlay-content a{
+    color: #ffffff;
+    font-size: 14px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-sidebar .latest-posts li .title-box {
+    position: relative;
+    display: block;
+    min-height: 80px;
+    padding-left: 20px;
+}
+.single-sidebar .latest-posts li .title-box h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0px 0px 11px;
+}
+.single-sidebar .latest-posts li .title-box h4 a{
+    color: #222222;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-sidebar .latest-posts li .title-box p{
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+.single-sidebar .latest-posts li .title-box p a {
+    color: #222222;
+}
+
+
+.single-sidebar .popular-tag {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.single-sidebar .popular-tag li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 0 7.5px 15px;
+}
+.single-sidebar .popular-tag li a {
+    position: relative;
+    display: block;
+    padding: 0 25px;
+    background: #faf8f4;
+    color: #222222;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    transition: all 500ms ease;
+    font-family: 'Noto Serif', serif;
+}
+.single-sidebar .popular-tag li:hover a{
+    color: #ffffff;
+    background: #444444;
+}
+
+
+
+.single-sidebar .sidebar-archives {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-sidebar .sidebar-archives li {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 17px;
+    margin-top: 14px;
+    padding-left: 20px;
+}
+.single-sidebar .sidebar-archives li:first-child{
+    margin-top: 0;
+}
+.single-sidebar .sidebar-archives li:before{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: "\e99b";
+    font-family: 'icomoon' !important;
+    font-size: 8px;
+    transition: all 500ms ease;
+}
+.single-sidebar .sidebar-archives li:hover:before{
+    color: #222222;
+}
+.single-sidebar .sidebar-archives li a {
+    color: #222222;
+    transition: all 500ms ease;
+}
+.single-sidebar .sidebar-archives li span {
+    position: relative;
+    display: inline-block;
+    float: right;
+    color: #666666;
+}
+
+
+.single-sidebar .sidebar-gallery{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.single-sidebar .sidebar-gallery li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 100px;
+    min-height: 100px;
+    margin: 0 5px 10px; 
+}
+.single-sidebar .sidebar-gallery li .img-box{
+    position: relative;
+    display: block;
+}
+.single-sidebar .sidebar-gallery li .img-box img{
+    width: 100%;
+}
+.single-sidebar .sidebar-gallery li .img-box .overlay-content{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(23, 23, 23, 0.80);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;   
+}
+.single-sidebar .sidebar-gallery li:hover .img-box .overlay-content{
+    transform: scale(1.0);
+}
+.single-sidebar .sidebar-gallery li .img-box .overlay-content a{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 15px;
+    transform: scale(0);
+    transition: all 500ms ease 100ms;
+}
+.single-sidebar .sidebar-gallery li:hover .img-box .overlay-content a{
+    transform: scale(1.0);
+    transition: all 700ms ease 600ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

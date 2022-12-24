@@ -1,0 +1,244 @@
+
+/* Accordion Box Css */
+.accordion-box {
+    position: relative;
+    display: block;
+}
+.accordion-box .accordion {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0px;
+}
+.accordion-box .accordion.border_none{
+    border-bottom: none;
+}
+.accordion-box .accordion .accord-btn {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn h4 {
+    color: #222222;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: all 500ms ease;
+}
+.accordion-box .accordion .accord-btn::after {
+    font-family: FontAwesome;
+    position: absolute;
+    content: "\f107";
+    top: 50%;
+    right: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 500ms ease 0s;
+}
+.accordion-box .accordion .accord-btn.active {
+    position: relative;
+    background: #ffffff;
+}
+.accordion-box .accordion .accord-btn.active:after{
+    content: "\f107";
+    opacity: 1;
+}
+.accordion-box .accordion .accord-content {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+    padding-right: 30px;
+    display: none;
+    z-index: 1;
+}
+.accordion-box .accordion .accord-content.collapsed {
+    display: block;
+}
+.accordion-box .accordion .accord-content p {
+    margin: 0;
+}
+
+
+
+.accordion-box.style2 .accordion .accord-btn {
+    padding-left: 40px;
+}
+.accordion-box.style2 .accordion .accord-btn .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-box.style2 .accordion .accord-btn::after {
+    right: 5px;
+    font-family: Flaticon;
+    content: "\f103";
+    color: #222222;
+    opacity: 1;
+}
+.accordion-box.style2 .accordion .accord-btn.active:after{
+    content: "\f104";
+}
+.accordion-box.style2 .accordion .accord-content {
+    padding-top: 28px;
+    border-top: 1px solid #e1e1e1;
+}
+
+
+
+
+
+
+/*** 
+=============================================
+    Faq Page Area
+=============================================
+***/
+.faq-page-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 20px;
+}
+.faq-page-area.pdbottom120{
+    padding-bottom: 120px;
+}
+
+.faq-page-area .sec-title {
+    padding-bottom: 30px;
+}
+.faq-page-area .sec-title p {
+    font-size: 20px;
+    margin: 8px 0 0;
+}
+
+.faq-search-box form.search-form {
+    position: relative;
+    display: block;
+    max-width: 370px;
+    width: 100%;
+    margin: 0px auto 60px;
+}
+.faq-search-box .search-form input[type="search"] {
+    position: relative;
+    display: block;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    color: #222222;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 65px;
+    width: 100%;
+    border-radius: 0;
+    transition: all 500ms ease 0s;
+}
+.faq-search-box .search-form button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    display: block;
+    background: transparent;
+    font-size: 14px;
+    color: #222222;
+    height: 50px;
+    width: 55px;
+    border: 0px solid;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 0%;
+    transition: all 500ms ease 0s;
+    margin: 0;
+}
+.faq-search-box .search-form button i {
+    font-size: 14px
+}
+.faq-search-box .search-form input[type="search"]:focus {
+    border: 1px solid #222222;
+    background: #fff;
+    color: #000000;
+}
+.faq-search-box .search-form input[type="search"]:focus + button, 
+.faq-search-box .search-form button:hover {
+    background: #222222;
+    color: #fff;
+}
+
+
+
+/*** 
+=============================================
+    Faq Style1 Area Css
+=============================================
+***/
+.faq-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.faq-style1-area .martop110{
+    margin-top: 110px;
+}
+.faq-style1-area .sec-title.style3{
+    padding-bottom: 43px;
+}
+.faq-style1-area .sec-title.style3 h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 22px 0 0;
+}
+.faq-style1-content{
+    position: relative;
+    display: block;
+    max-width: 945px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.faq-style1-area .accordion-box .accordion .accord-btn h4 {
+    font-size: 18px;
+}
+.faq-style1-area .accordion-box .accordion .accord-btn {
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.faq-style1-area .accordion-box .accordion .accord-btn::after {
+    right: auto;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,313 @@
+
+
+/*** 
+=============================================
+    Fact Counter Area style
+=============================================
+***/
+.fact-counter-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0 80px;
+    z-index: 10;
+}
+.fact-counter-area .container-box{
+    position: relative;
+    display: block;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.fact-counter-area .container-box:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #222222;
+    opacity: 0.70;
+    z-index: -1;
+}
+
+.thm-fact-counter-logo {
+    position: relative;
+    display: block;
+    margin-left: -140px;
+    padding: 110px 0 108px;
+}
+.thm-fact-counter-logo h2{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 22px 0 0;
+}
+.fact-counter{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-right: -140px;
+}
+.fact-counter-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 113px 0 65px;
+}
+.single-fact-counter {
+    position: relative;
+    display: block;
+    float: left;
+    max-width: 25%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.single-fact-counter:after {
+    position: absolute;
+    top: 28px;
+    right: 0;
+    width: 1px;
+    height: 60px;
+    content: "";
+}
+.single-fact-counter:last-child:after{
+    display: none;
+}
+
+.single-fact-counter .count-box{
+    position: relative;
+    display: inline-block;
+}
+.single-fact-counter .count-box h2 {
+    color: #ffffff;
+    font-size: 76px;
+    line-height: 70px;
+    font-weight: 400;
+}
+.single-fact-counter .count-box h2 span {
+    display: inline-block;
+}
+
+.single-fact-counter .sub-title{
+    position: relative;
+    display: inline-block;
+    margin: 22px 0 0;
+}
+.single-fact-counter .count-box h5 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+
+
+
+/*** 
+=============================================
+    Fact Counter Style2 Area style
+=============================================
+***/
+.fact-counter-style2-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 58px 0 70px;
+}
+.fact-counter-style2{
+    position: relative;
+    display: block;
+}
+.fact-counter-box-style2{
+    position: relative;
+    display: flex;
+    z-index: 11;
+}
+
+.single-fact-counter-style2{
+    position: relative;
+    display: block;
+    max-width: 25%;
+    width: 100%;
+    border-right: 1px solid #e1e1e1;
+    margin-bottom: 40px;
+}
+.single-fact-counter-style2:last-child{
+    border-right: none;
+}
+.single-fact-counter-style2 .icon-box{
+    position: relative;
+    display: block;
+    padding-bottom: 29px;
+}
+.single-fact-counter-style2 .icon-box span:before{
+    color: #222222;
+    font-size: 80px;
+}
+
+.single-fact-counter-style2 .count-box{
+    position: relative;
+    display: block;
+}
+.single-fact-counter-style2 .count-box h2{
+    font-size: 76px;
+    line-height: 70px;
+    font-weight: 400;
+}
+.single-fact-counter-style2 .count-box .sub-title{
+    position: relative;
+    margin-top: 17px;
+}
+.single-fact-counter-style2 .count-box .sub-title h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/*** 
+=============================================
+    Fact Counter Style3 Area style
+=============================================
+***/
+.fact-counter-style3-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+.fact-counter-style3{
+    position: relative;
+    display: block;
+    padding: 108px 0 64px;
+}
+.fact-counter-style3 .pattern-bg{
+    position: absolute;
+    top: -50px;
+    left: -100000px;
+    bottom: 0;
+    right: 0;
+    background-color: #f4f4f4;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.fact-counter-box-style3{
+    position: relative;
+    display: flex;
+}
+
+.single-fact-counter-style3{
+    position: relative;
+    display: block;
+    max-width: 25%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.single-fact-counter-style3 .count-box .sub-title{
+    position: relative;
+    margin-bottom: 10px;
+}
+.single-fact-counter-style3 .count-box .sub-title h5{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.single-fact-counter-style3 .count-box{
+    position: relative;
+    display: block;
+}
+.single-fact-counter-style3 .count-box h2{
+    color: #222222;
+    font-size: 86px;
+    line-height: 80px;
+    font-weight: 400;
+}
+.single-fact-counter-style3 .count-box h2 span {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/*** 
+=============================================
+    Fact Counter Style4 Area style
+=============================================
+***/
+.fact-counter-style2-area.style2instyle4 {
+    padding-top: 0;
+}
+.fact-counter-style2-area.style2instyle4 .layer-outer {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    max-width: 615px;
+    width: 100%;
+    height: 726px;
+    z-index: 10;
+    opacity: 0.15;
+}
+
+
+.single-fact-counter-style2.style2instyle4{}
+.single-fact-counter-style2.style2instyle4 .sub-title{
+    position: relative;
+    display: block;
+    padding-bottom: 21px;
+}
+.single-fact-counter-style2.style2instyle4 .sub-title h5{
+    color: #222222;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.single-fact-counter-style2.style2instyle4 .icon-box {
+    padding-bottom: 16px;
+}
+
+
+
+/*** 
+=============================================
+    Fact Counter Style2 Area About Page style
+=============================================
+***/
+.fact-counter-style2-area.style2instyle4.about-page{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #f9f6f2;
+    padding-top: 110px;
+}
+.fact-counter-style2-area.style2instyle4.about-page .layer-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    opacity: 1.0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+

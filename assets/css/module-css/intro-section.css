@@ -1,0 +1,369 @@
+
+
+/*** 
+=============================================
+    Intro Style1 Area Css
+=============================================
+***/
+.intro-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 51px 0px 70px;
+}
+.intro-big-title {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    color: #f9f6f2;
+    font-size: 240px;
+    line-height: 0.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.intro-big-title span {
+    position: relative;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+
+.intro-style1-content-box{
+    position: relative;
+    display: block;
+}
+.intro-style1-content-box h2 {
+    color: #222222;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.intro-style1-content-box h3 {
+    color: #222222;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+.intro-style1-content-box p{
+    margin: 0;
+}
+.intro-style1-content-box .button-box {
+    position: relative;
+    display: block;
+    margin-top: 47px;
+}
+
+.intro-style1-image-box {
+    position: relative;
+    display: block;
+    margin-top: -130px;
+    margin-left: 0;
+    margin-right: -110px;
+}
+.intro-style1-image-box ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.intro-style1-image-box ul.top {
+    margin-bottom: -165px;
+}
+.intro-style1-image-box ul.bottom {
+    margin-top: -163px;
+}
+.intro-style1-image-box ul li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 0 5px 10px;
+    width: 322px;
+    height: 322px;
+    z-index: 1;
+}
+.intro-style1-image-box ul.top li{
+    position: relative;
+    display: block;
+}
+.intro-style1-image-box ul.top li:before {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    bottom: 48px;
+    right: 48px;
+    background: #444444;
+    content: "";
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.intro-style1-image-box ul li .inner-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.intro-style1-image-box ul li .inner-box .thm-logo-box {
+    position: relative;
+    color: #ffffff;
+    font-size: 120px;
+    line-height: 322px;
+}
+.intro-style1-image-box ul li .inner-box .thm-logo-box span:before{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+
+
+/*** 
+=============================================
+    Intro Style2 Area Css
+=============================================
+***/
+.intro-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+.intro-style2-image-box {
+    position: relative;
+    display: block;
+    padding-top: 90px;
+    margin-right: -55px;
+    z-index: 101;
+}
+.intro-style2-image-box .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.intro-style2-image-box .inner:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    background: #ffffff;
+    content: "";
+}
+.intro-style2-image-box .inner img{
+    width: 100%;
+}
+
+
+.intro-style2-content-box {
+    position: relative;
+    display: block;
+    padding-top: 60px;
+    padding-left: 115px;
+    padding-bottom: 110px;
+    padding-right: 50px;
+    z-index: 100;
+}
+.intro-style2-content-box-bg-color {
+    position: absolute;
+    top: -50px;
+    left: 5px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.intro-style2-content-box .sec-title.style3 {
+    position: relative;
+    display: block;
+    padding-bottom: 22px;
+}
+.intro-style2-content-box .sec-title.style3 .title-icon span:before{
+    color: #ffffff;
+}
+.intro-style2-content-box .sec-title.style3 .sub-title {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+}
+.intro-style2-content-box .sec-title.style3 .sub-title h4{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.intro-style2-content-box .sec-title.style3 h2 {
+    color: #ffffff;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.intro-style2-content-box .inner-content{
+    position: relative;
+    display: block;
+}
+.intro-style2-content-box .inner-content .text {
+    margin-bottom: 47px;
+}
+.intro-style2-content-box .inner-content .text p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.intro-style2-content-box .inner-content .button-box{
+    position: relative;
+    display: block;
+}
+.intro-style2-content-box .inner-content .button-box a{
+    color: #ffffff;
+    line-height: 56px;
+    border: 2px solid #ffffff;
+    background: transparent;
+}
+
+
+
+/*** 
+=============================================
+    Intro Style3 Area Css
+=============================================
+***/
+.intro-style3-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.intro-style3-area .sec-title {
+    padding-bottom: 54px;
+}
+.intro-style3-text-box{
+    position: relative;
+    display: block;
+    margin-bottom: 32px;
+}
+.intro-style3-text-box p{
+    margin: 0;
+}
+.intro-style3-main-content-box{
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    min-height: 400px;
+}
+.intro-style3-main-content-box .left-box {
+    position: relative;
+    display: block;
+    max-width: 455px;
+    width: 100%;
+    padding-top: 15px;
+    z-index: 2;
+}
+.intro-style3-main-content-box .right-box{
+    position: relative;
+    display: block;
+    max-width: 455px;
+    width: 100%; 
+    padding-top: 15px;
+    z-index: 2;
+}
+
+.intro-style3-main-image-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-style3-main-image-box .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+.intro-style3-main-image-box .inner img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.intro-style3-single-box {
+    position: relative;
+    margin-bottom: 90px;
+}
+.intro-style3-single-box:last-child{
+    margin-bottom: 0;
+}
+.intro-style3-single-box .icon{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #ffffff;
+}
+.intro-style3-single-box .icon .inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.05); 
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.05);
+
+}
+.intro-style3-single-box .icon .inner span{
+    font-size: 65px;    
+}
+.intro-style3-single-box .icon,
+.intro-style3-single-box .text{
+    display: table-cell;
+    vertical-align: middle;
+}
+.intro-style3-single-box .text{
+    position: relative;
+    padding-left: 25px;
+}
+.intro-style3-single-box .text h3{
+    color: #222222;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 11px;
+}
+.intro-style3-single-box .text p{
+    margin: 0;
+}
+
+.intro-style3-single-box.left .text {
+    padding-left: 0;
+    padding-right: 25px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,662 @@
+
+
+/*** 
+=============================================
+    Floor Plans Area Css
+=============================================
+***/
+.floor-plans-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.floor-plans-tab{
+    position: relative;
+    display: block;
+}
+.floor-plans-tab .tab-button-column{
+    position: relative;
+    display: block;
+    padding-bottom: 80px;
+}
+.floor-plans-tab .tab-button-column .tab-buttons {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.floor-plans-tab .tab-button-column .tab-buttons li {
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-right: 20px;
+    padding-right: 21px;
+    color: #444444;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.floor-plans-tab .tab-button-column .tab-buttons li:last-child{
+    margin-right: 0px;
+    padding-right: 0;
+}
+.floor-plans-tab .tab-button-column .tab-buttons li:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e1e1e1;
+    content: "";
+}
+.floor-plans-tab .tab-button-column .tab-buttons li:last-child:before{
+    display: none;
+}
+.floor-plans-tab .tab-button-column .tab-buttons li span{
+    position: relative;
+    display: inline-block;
+}
+.floor-plans-tab .tab-button-column .tab-buttons li span:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #444444;
+    content: "";
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.floor-plans-tab .tab-button-column .tab-buttons li.tab-btn:hover span:before,
+.floor-plans-tab .tab-button-column .tab-buttons li.tab-btn.active-btn span:before{
+    transform: scaleX(1.0);       
+}
+
+.floor-plans-tab .tabs-content .tab{
+	position: relative;
+	display: none;
+	-webkit-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	transform: translateY(35px);
+	-webkit-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	z-index:10;
+}
+.floor-plans-tab .tabs-content .tab.active-tab{
+	display: block;
+	margin-top: 0px;
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+.floor-plans-left-content{
+    position: relative;
+    display: block;
+    margin-top: -9px;
+    margin-left: -140px;
+}
+.floor-plans-left-content h3{
+    color: #222222;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.floor-plans-left-content h3 span{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    padding-right: 20px;
+    color: #e9c483;
+    font-size: 40px;
+}
+
+.floor-plans-left-content .inner-text {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+}
+.floor-plans-left-content .inner-text p{
+    margin: 0 0 25px;
+}
+
+
+.floor-plans-left-content ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 370px;
+    width: 100%;
+    padding: 32px 40px 33px;
+    margin-top: 42px
+}
+.floor-plans-left-content ul li {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.floor-plans-left-content ul li:last-child{
+    margin-bottom: 0;
+}
+.floor-plans-left-content ul li:before{
+    position: absolute;
+    left: 0;
+    height: 7px;
+    width: 7px;
+    margin: 12px 0;
+    background: #ffffff;
+    content: "";
+}
+
+
+.floor-plans-middle-content{
+    position: relative;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.floor-plans-middle-content ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.floor-plans-middle-content ul li{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0 30px;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.floor-plans-middle-content ul li.gray-bg{
+    background: #faf8f4;
+}
+.floor-plans-middle-content ul li span{}
+.floor-plans-middle-content ul li span.right{
+    position: relative;
+    display: inline-block;
+    float: right;
+    color: #666666;
+    font-weight: 400;
+}
+.floor-plans-middle-content ul li:before {
+    position: absolute;
+    left: 170px;
+    right: 150px;
+    height: 1px;
+    border-bottom: 1px dashed #575656;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.floor-plans-right-content{
+    position: relative;
+    display: block;
+    margin-right: -140px;
+}
+.floor-plans-right-content .floor-plan-map {
+    position: relative;
+    display: block;
+    border: 1px solid #e1e1e1;
+    padding: 50px 40px 50px;
+    text-align: center;
+}
+
+
+
+/*** 
+=============================================
+    Floor Plans Style2 Area Css
+=============================================
+***/
+.floor-plans-style2-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    z-index: 100;
+    padding-bottom: 103px;
+}
+.floor-plans-style2-area .big-text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    color: #f9f6f2;
+    font-size: 250px;
+    line-height: 200px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.floor-plans-style2-area .container-box{
+    position: relative;
+    display: block;
+    max-width: 1530px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.floor-plans-style2-content{
+    position: relative;
+    display: block;
+}
+.floor-plans-style2-content-bg{
+    position: absolute;
+    top: -180px;
+    left: 0;
+    bottom: 80px;
+    right: 0;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.floor-plans-style2-content .inner-content{
+    position: relative;
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    float: right;
+    background: #ffffff;
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    padding: 70px 80px 80px;
+    z-index: 10;
+}
+.floor-plans-style2-content .inner-content .title{
+    position: relative;
+    display: block;
+    padding-bottom: 40px;
+}
+.floor-plans-style2-content .inner-content .title h2{
+    color: #222222;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+}
+
+.floor-plans-tab-style2{
+    position: relative;
+    display: block;
+}
+.floor-plans-tab-style2 .tab-button-column{
+    position: relative;
+    display: block;
+    padding-bottom: 33px;
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li {
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-right: 20px;
+    padding-right: 21px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li:last-child{
+    margin-right: 0px;
+    padding-right: 0;
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e1e1e1;
+    content: "";
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li:last-child:before{
+    display: none;
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li span{
+    position: relative;
+    display: inline-block;
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li span:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #444444;
+    content: "";
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn:hover span:before,
+.floor-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn.active-btn span:before{
+    transform: scaleX(1.0);       
+}
+
+
+.floor-plans-tab-style2 .tabs-content .tab{
+	position: relative;
+	display: none;
+	-webkit-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	transform: translateY(35px);
+	-webkit-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	z-index:10;
+}
+.floor-plans-tab-style2 .tabs-content .tab.active-tab{
+	display: block;
+	margin-top: 0px;
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+.floor-plans-tab-content-style2{
+    position: relative;
+    display: block;
+}
+.floor-plans-tab-content-style2 .text{
+    position: relative;
+    display: block;
+    padding-bottom: 18px;
+}
+.floor-plans-tab-content-style2 .text p{
+    margin: 0;
+}
+
+.floor-plans-tab-content-style2 ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+}
+.floor-plans-tab-content-style2 ul li {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.floor-plans-tab-content-style2 ul li span{}
+.floor-plans-tab-content-style2 ul li span.right{
+    position: relative;
+    display: inline-block;
+    float: right;
+    color: #666666;
+    font-weight: 400;
+}
+.floor-plans-tab-content-style2 ul li:before {
+    position: absolute;
+    left: 130px;
+    right: 100px;
+    height: 1px;
+    border-bottom: 1px dashed #575656;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.floor-plans-tab-content-style2 .button-box{
+    position: relative;
+    display: block;
+    padding-top: 35px;
+}
+.floor-plans-tab-content-style2 .button-box a{
+    color: #222222;
+    line-height: 58px;
+    border: 1px solid #444444;
+    background: #ffffff;
+    margin-right: 6px;
+}
+.floor-plans-tab-content-style2 .button-box a.first{
+    color: #ffffff;
+}
+.floor-plans-tab-content-style2 .button-box a:hover{
+    color: #ffffff;
+}
+.floor-plans-tab-content-style2 .icon-box {
+    position: absolute;
+    bottom: -10px;
+    right: -45px;
+    color: #f9f8f5;
+    font-size: 250px;
+    transform: rotate(-45deg);
+}
+
+
+
+/*** 
+=============================================
+    Floor Plans Style3 Area Css
+=============================================
+***/
+.floor-plans-style3-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 80px;
+}
+.floor-plans-style3-area .sec-title{
+    padding-bottom: 62px;
+}
+.floor-plans-style3-content{
+    position: relative;
+    display: block;
+}
+.floor-plans-tab-style3{
+    position: relative;
+    display: block;
+}
+.floor-plans-tab-style3 .tab-button-column {
+    position: relative;
+    display: block;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    padding: 63px 45px 63px;
+    padding-right: 30px;
+}
+.floor-plans-tab-style3 .tab-button-column .tab-buttons {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li {
+    position: relative;
+    display: block;
+    float: none;
+    color: #222222;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 31px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li:last-child{
+    margin-bottom: 0px;
+}
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li span{
+    position: relative;
+    display: inline-block;
+}
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li span:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #383838;
+    content: "";
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li.tab-btn:hover span:before,
+.floor-plans-tab-style3 .tab-button-column .tab-buttons li.tab-btn.active-btn span:before{
+    transform: scaleX(1.0);       
+}
+
+.floor-plans-tab-style3 .tabs-content .tab{
+	position: relative;
+	display: none;
+	-webkit-transform: translateY(35px);
+	-ms-transform: translateY(35px);
+	transform: translateY(35px);
+	-webkit-transition:all 600ms ease;
+	-moz-transition:all 600ms ease;
+	-ms-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	z-index:10;
+}
+.floor-plans-tab-style3 .tabs-content .tab.active-tab{
+	display: block;
+	margin-top: 0px;
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.floor-plans-tab-content-style3{
+    position: relative;
+    display: block;
+}
+
+.floor-plans-style3-map-box {
+    position: relative;
+    display: block;
+    border: 1px solid #dfdfdf;
+    padding: 29px 50px 29px;
+    text-align: center;
+}
+.floorplan-style3-tab-bottom-content{
+    position: relative;
+    display: block;
+    padding-top: 70px;
+}
+.floorplan-style3-tab-bottom-content ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;    
+}
+
+.floorplan-style3-tab-bottom-content ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    padding-top: 9px;
+    padding-left: 25px;
+    padding-bottom: 4px;
+    margin-bottom: 30px;
+}
+.floorplan-style3-tab-bottom-content ul li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e1e1e1;
+    content: "";
+}
+.floorplan-style3-tab-bottom-content ul li .inner {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.floorplan-style3-tab-bottom-content ul li .inner .icon{
+    width: 50px;
+}
+.floorplan-style3-tab-bottom-content ul li .inner .icon span:before{
+    color: #222222;
+    font-size: 50px;
+    line-height: 50px;
+}
+.floorplan-style3-tab-bottom-content ul li .inner .title{
+    position: relative;
+    padding-left: 25px;
+}
+.floorplan-style3-tab-bottom-content ul li .inner .title h5{
+    color: #222222;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0 0 9px;
+}
+.floorplan-style3-tab-bottom-content ul li .inner .title h3{
+    color: #222222;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.floorplan-style3-tab-bottom-content ul li .inner .title h3 span{}
+.floorplan-style3-tab-bottom-content ul li .inner .title h3 span sup{}
+
+.floorplan-style3-tab-bottom-content .text-box{
+    position: relative;
+    display: block;
+}
+.floorplan-style3-tab-bottom-content .text-box p{
+    margin: 0 0 25px;
+}
+.floorplan-style3-tab-bottom-content .text-box .button-box{
+    position: relative;
+    display: block; 
+    padding-top: 7px;
+}
+
+
+
+
+
+

@@ -1,0 +1,316 @@
+
+
+/*** 
+=============================================
+    Features Style1 Area Css
+=============================================
+***/
+.features-style1-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+}
+.features-style1-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.single-features-box-style1 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.single-features-box-style1{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-features-box-style1 .img-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.single-features-box-style1 .img-box:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000;
+    content: "";
+    opacity: 0.70;
+    z-index: 1;
+    transition: all 700ms linear;
+    transition-delay: 0.3s;
+}
+.single-features-box-style1:hover .img-box:before{
+    opacity: 0;
+}
+.single-features-box-style1 .img-box:after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 150px;   
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);    
+    content: "";
+    transition: all 700ms linear;
+    transition-delay: 0.2s;
+    z-index: 1;
+}
+.single-features-box-style1:hover .img-box:after{
+    opacity: 0;    
+}
+
+.single-features-box-style1 .img-box img{
+    width: 100%;
+}
+.single-features-box-style1 .inner-text {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    transform: translateY(0px);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-features-box-style1:hover .inner-text{
+    transform: translateY(100px) 
+}
+
+.single-features-box-style1 .inner-text h3{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.single-features-box-style1 .inner-text .border-box{
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 80px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.single-features-box-style1 .inner-text .border-box:before{
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    bottom: -4px;
+    width: 1px;
+    background: #fff;
+    content: "";
+}
+
+
+
+.single-features-box-style1 .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(0) translateY(-100px);
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.single-features-box-style1:hover .overlay-text{
+    transform: scale(1.0) translateY(0px);    
+}
+.single-features-box-style1 .overlay-text:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    opacity: 0.90;
+    z-index: -1;
+    transform: translateY(-100%);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 900ms ease 100ms;
+}
+.single-features-box-style1:hover .overlay-text:before{
+    transform: translateY(0);    
+}
+
+.single-features-box-style1 .overlay-text span:before{
+    color: #ffffff;
+    font-size: 65px;
+    line-height: 65px;
+}
+.single-features-box-style1 .overlay-text h3{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 22px 0 15px;
+}
+.single-features-box-style1 .overlay-text .border-box{
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 80px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.single-features-box-style1 .overlay-text .border-box:before{
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    bottom: -4px;
+    width: 1px;
+    background: #fff;
+    content: "";
+}
+
+
+
+
+/*** 
+=============================================
+    Features Style2 Area Css
+=============================================
+***/
+.features-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 110px;
+}
+.features-style2-area .sec-title{
+    padding-bottom: 12px;
+}
+
+.single-features-box-style2{
+    position: relative;
+    display: block;
+}
+.single-features-box-style2 .icon-holder {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background: #f0eeea;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.single-features-box-style2:hover .icon-holder{
+    box-shadow: none;
+}
+.single-features-box-style2 .icon-holder .inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-features-box-style2 .icon-holder .inner span {
+    font-size: 70px;
+    transition: all 200ms linear;
+    transition-delay: 0.2s;
+}
+.single-features-box-style2  .text-holder{
+    position: relative;
+    display: block;
+}
+.single-features-box-style2 .text-holder h3 {
+    color: #222222;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.single-features-box-style2  .text-holder p{
+    margin: 0;
+}
+
+.single-features-box-style2:hover .icon-holder .inner{
+    background: #444444;    
+}
+.single-features-box-style2:hover .icon-holder .inner span{
+    color: #ffffff;
+}
+
+.features-style2-carousel.owl-carousel.owl-dot-style1 .owl-stage-outer{
+    padding-top: 50px;
+    padding-bottom: 42px;
+}
+
+
+
+/*** 
+=============================================
+    Features Style2 Area About Page Css
+=============================================
+***/
+.features-style2-area.about-page{
+    position: relative;
+    display: block;
+    padding: 110px 0 62px;
+}
+.features-style2-area.about-page .sec-title {
+    padding-bottom: 71px;
+}
+.features-style2-area.about-page .single-features-box-style2{
+    margin-bottom: 40px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,431 @@
+
+
+
+/*** 
+=============================================
+   Gallery Area Css
+=============================================
+***/
+.gallery-area{
+    position: relative;
+    display: block;
+    padding: 110px 80px 75px;
+}
+.gallery-area.pdtop0{
+    padding-top: 0;
+}
+.gallery-area .row {
+    margin-left: -17.5px;
+    margin-right: -17.5px;
+}
+.gallery-area .row [class*=col-] {
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+}
+.single-gallery-item{
+    position: relative;
+    display: block;
+    margin-bottom: 35px;
+}
+.single-gallery-item .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-gallery-item .img-holder img{
+    width: 100%;
+    transform: scale(1.0);
+}
+.single-gallery-item:hover .img-holder img{
+    transform:scale(1.2) rotate(1deg);	    
+}
+
+.single-gallery-item .img-holder:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: top;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: 1;
+}
+.single-gallery-item:hover .img-holder:before{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+
+.single-gallery-item .img-holder:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    opacity: 0.10;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    opacity: 1;
+    transform-origin: bottom;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    z-index: 1;
+}
+.single-gallery-item:hover .img-holder:after{
+    opacity: 0.80;
+    transform: scaleY(1.0);    
+}
+.single-gallery-item .img-holder .zoom-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scaleY(0);
+    transition: all 500ms ease 800ms;
+    z-index: 10;
+}
+.single-gallery-item:hover .img-holder .zoom-button{
+    opacity: 1;
+    transform: scaleY(1.0);    
+}
+.single-gallery-item .img-holder .zoom-button a{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(23, 23, 23, 0.80);
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+/*** 
+=============================================
+    Gallery Style2 Area Css
+=============================================
+***/
+.gallery-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 195px;
+}
+.gallery-style2-area .pattern-bg-left{
+    position: absolute;
+    left: 0;
+    top: -115px;
+    width: 120px;
+    height: 230px;
+}
+
+.gallery-style2-area .pattern-bg{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    height: 525px;
+    background-color: #f9f6f2;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center center;    
+}
+.gallery-style2-area .sec-title.style3 {
+    max-width: 650px;
+    width: 100%;
+    padding-bottom: 62px;
+    margin: 0 auto;
+}
+.gallery-style2-area .sec-title.style3 p {
+    margin: 14px 0 0;
+}
+
+
+.gallery-carousel{
+    position: relative;
+	display: block;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+.gallery-carousel.owl-carousel .owl-stage-outer{
+	overflow: visible;
+	padding: 0px 0px 0px;
+}
+
+.single-gallery-item-style2{
+    position: relative;
+    display: block;
+}
+.single-gallery-item-style2 .inner-box{
+    position: relative;
+    display: block;
+    padding-bottom: 55px;
+}
+.single-gallery-item-style2 .inner-box .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-gallery-item-style2 .inner-box .img-holder:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #ffffff;
+    opacity: 0.70;
+    content: "";
+    transform: perspective(400px) translateY(0px);
+    transform-origin: center;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gallery-carousel.owl-carousel .owl-item.active .single-gallery-item-style2 .inner-box .img-holder:before{
+    opacity: 0.0;
+    transform: perspective(400px) translateY(0px);
+    transition: all 0.5s ease-in-out 0.3s;
+}
+.single-gallery-item-style2 .overlay-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 470px;
+    padding: 42px 50px 42px;
+    width: 100%;
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transform: perspective(370px) scale(0.7)translate(20px, 0px);
+    transition: all .4s ease-in-out .1s;  
+    z-index: 2;
+}
+.gallery-carousel.owl-carousel .owl-item.active .single-gallery-item-style2 .overlay-content{
+    opacity: 1;
+    transform: perspective(370px) scale(1.0)translate(0px, 0px);
+    transition: all .4s ease-in-out .5s;      
+}
+.single-gallery-item-style2 .overlay-content h2{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0 0 11px;
+}
+.single-gallery-item-style2 .overlay-content .border-box{
+    width: 40px;
+    height: 1px;
+    background: #ffffff;
+}
+.single-gallery-item-style2 .overlay-content p{
+    color: #ffffff;
+    margin: 18px 0 0;
+}
+.gallery-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: -33px;
+    right: -33px;
+    line-height: 0;
+    height: 0;
+    transform: translateY(-60px);
+}
+.gallery-carousel.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    margin-left: 0px;
+    float: right;
+}
+
+
+
+
+/*** 
+=============================================
+    Gallery Style3 Area Css
+=============================================
+***/
+.gallery-style3-area{
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 110px 0 80px;
+}
+.gallery-style3-area .sec-title{
+    padding-bottom: 61px;
+}
+.project-menu-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.project-filter {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+.project-filter li {
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-right: 20px;
+    padding-right: 21px;
+    line-height: 28px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.project-filter li:last-child{
+    margin-right: 0px;
+    padding-right: 0;
+}
+.project-filter li:before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    background: #e1e1e1;
+    content: "";
+}
+.project-filter li:last-child:before{
+    display: none;
+}
+.project-filter li .filter-text {
+    position: relative;
+    display: inline-block;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .4s ease;
+    z-index: 1;
+}
+.project-filter li .filter-text:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    background: #3a3a3a;
+    content: "";
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.project-filter li:hover .filter-text:before,
+.project-filter li.active .filter-text:before{
+    transform: scaleX(1.0);    
+}
+.project-filter li .count {
+    display: none;
+}
+
+.gallery-style3-area .single-gallery-item{
+    margin-bottom: 30px;
+}
+
+
+
+
+/*** 
+=============================================
+    Gallery Page Css
+=============================================
+***/
+.single-gallery-item.style2 .img-holder:before {
+    background-color: rgba(68, 68, 68, 1.0);
+}
+.single-gallery-item.style2:hover .img-holder:before{
+    opacity: 0.90;
+    transform: scaleY(1.0);    
+}
+.single-gallery-item.style2 .img-holder:after {
+    background-color: rgba(68, 68, 68, 1.0);
+}
+.single-gallery-item.style2:hover .img-holder:after{
+    opacity: 0.90;
+    transform: scaleY(1.0);    
+}
+.single-gallery-item.style2 .img-holder .border-box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scale(1.3);
+    transition: all 500ms ease 300ms;
+}
+.single-gallery-item.style2:hover .img-holder .border-box{
+    transform: scale(1.0);    
+}
+.single-gallery-item.style2 .overaly-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scale(0);
+    transition: all 300ms ease 100ms;
+}
+.single-gallery-item.style2:hover .overaly-content{
+    transform: scale(1.0);
+    transition: all 500ms ease 800ms;
+}
+.single-gallery-item.style2 .overaly-content .button{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+.single-gallery-item.style2 .overaly-content .button a span:before{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    transform: rotate(180deg);
+}
+.single-gallery-item.style2 .overaly-content h3{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+

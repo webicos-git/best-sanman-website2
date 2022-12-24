@@ -1,0 +1,274 @@
+
+/*** 
+=============================================
+    Agents Area Css
+=============================================
+***/
+.agents-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 110px 0 102px;
+}
+
+.agents-title-box {
+    position: relative;
+    display: block;
+    padding-right: 40px;
+}
+.agents-title-box .sec-title {
+    padding-bottom: 24px;
+}
+.agents-title-box .inner-content{
+    position: relative;
+    display: block;
+}
+.agents-title-box .inner-content p{
+    margin: 0;
+}
+.agents-title-box .inner-content .button-box {
+    position: relative;
+    display: block;
+    margin-top: 52px;
+}
+.agents-title-box .inner-content .button-box a{
+    color: #222222;
+    line-height: 56px;
+    border: 2px solid #222222;
+    background: #ffffff;
+}
+.agents-title-box .inner-content .button-box a:hover{
+    color: #ffffff;
+}
+
+
+.agents-content-box{
+    position: relative;
+    display: block;
+    padding-top: 52px;
+    max-width: 630px;
+    width: 100%;
+    float: right;
+}
+.single-agents-item{
+    position: relative;
+    display: block;
+    max-width: 300px;
+    width: 100%;
+}
+.single-agents-item .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-agents-item .img-holder img{
+    width: 100%;
+}
+.single-agents-item .title-holder {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+.single-agents-item .title-holder h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 0 0 2px;
+}
+.single-agents-item .title-holder h3 a{
+   color: #222222; 
+}
+.single-agents-item .title-holder p{
+    color: #666666;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.agents-content-box .owl-theme .owl-stage-outer {
+    position: relative;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.agents-content-box .owl-theme .owl-nav {
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 28px;
+}
+.agents-content-box .owl-theme .owl-nav [class*="owl-"] {
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    color: #d6d6d6;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 10px;
+    padding: 0;
+    transition: all 700ms ease 0s;
+}
+.agents-content-box .owl-theme .owl-nav .owl-prev {}
+.agents-content-box .owl-theme .owl-nav .owl-next {
+    transform: rotate(180deg);
+}
+.agents-content-box .owl-theme .owl-nav [class*="owl-"]:hover{
+    color: #222222;
+}
+
+
+
+/*** 
+=============================================
+  Team Style1 Area Css
+=============================================
+***/
+.team-style1-area{
+    position: relative;
+    display: block;
+    background: #f9f6f2;
+    padding: 110px 0 70px;
+}
+.team-style1-area.bg-white{
+    background: #ffffff;
+}
+.single-team-item{
+    position:relative;
+    display: block;
+    margin-bottom: 40px;
+}
+.single-team-item .img-holder{
+    position:relative;
+    display: block;
+    padding-bottom: 85px;
+}
+.single-team-item .img-holder .inner{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-team-item .img-holder img{
+    width: 100%;
+}
+
+
+.single-team-item .title-outer-box{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    right: 30px;
+    height: 220px; 
+    z-index: 10;
+}
+.single-team-item .title-outer-box:before {
+    position: absolute;
+    content: "";
+    top: 72px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.08);
+    z-index: -1;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-team-item:hover .title-outer-box:before{
+    box-shadow: 0px 0px 44.37px 6.63px rgba(0, 0, 0, 0.04);   
+}
+
+.single-team-item .title-outer-box .inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.single-team-item .title-holder {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    right: 0px;
+    background: #ffffff;
+    text-align: center;
+    padding: 42px 0px 45px;
+}
+.single-team-item .title-holder h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.single-team-item .title-holder h3 a{
+    color: #222222;
+}
+.single-team-item .title-holder p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+
+.single-team-item .title-holder.overlay {
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: scale(1.0) translateY(65px);
+    transition: all .4s ease-in-out .1s;
+}
+.single-team-item:hover .title-holder.overlay{
+    opacity: 1.0;
+    visibility: visible;
+    transform: scale(1.0) translateY(0%);
+}
+.single-team-item .title-holder .social-icon{
+    position: relative;
+    display: block;
+    padding-top: 25px;
+}
+.single-team-item .title-holder .social-icon ul{}
+.single-team-item .title-holder .social-icon ul li{
+    display: inline-block;
+    float: none;
+    margin: 0 3px;
+}
+.single-team-item .title-holder .social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.single-team-item .title-holder .social-icon ul li .facebook{
+    background: #4a71c5;
+}
+.single-team-item .title-holder .social-icon ul li .twitter{
+    background: #4fa4e5;
+}
+.single-team-item .title-holder .social-icon ul li .pinterest{
+    background: #de0a2a;
+}
+.single-team-item .title-holder .social-icon ul li .linkedin{
+    background: #0074b2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
